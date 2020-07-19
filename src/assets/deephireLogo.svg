@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="1080px" viewBox="0 0 1200 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>logomark</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="7.13757106%" y1="85.7378278%" x2="92.8773608%" y2="14.2581395%" id="linearGradient-1">
+            <stop stop-color="#2F69F8" offset="0%"></stop>
+            <stop stop-color="#FC6A6A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="8.00827026%" y1="88.6006383%" x2="92.018172%" y2="11.4226001%" id="linearGradient-2">
+            <stop stop-color="#2F69F8" offset="0%"></stop>
+            <stop stop-color="#FC6A6A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="DeepHire-Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vertical" transform="translate(-1460.000000, -1040.000000)" fill-rule="nonzero">
+            <g id="logomark" transform="translate(1340.000000, 848.000000)">
+                <path d="M960,528 L960,288 L480,288 L480,528 L384,528 L384,240 C384,213.490332 405.490332,192 432,192 L1008,192 C1034.50967,192 1056,213.490332 1056,240 L1056,528 L960,528 Z" id="handle" fill="url(#linearGradient-1)"></path>
+                <path d="M672,432 L672,682.242342 C652.775796,675.447561 632.55687,672 612,672 C512.588745,672 432,752.588745 432,852 C432,951.411255 512.588745,1032 612,1032 C632.55687,1032 652.775796,1028.55244 672,1021.75766 L672,1272 L168,1272 C141.490332,1272 120,1250.50967 120,1224 L120,480 C120,453.490332 141.490332,432 168,432 L672,432 Z M768,432 L1272,432 C1298.50967,432 1320,453.490332 1320,480 L1320,1224 C1320,1250.50967 1298.50967,1272 1272,1272 L768,1272 L768,886.006481 L640.008376,931.245029 C631.146394,934.37729 621.751558,936 612,936 C565.608081,936 528,898.391919 528,852 C528,805.608081 565.608081,768 612,768 C621.751558,768 631.146394,769.62271 640.008376,772.754971 L768,817.993519 L768,432 Z" id="briefcase-puzzle-copy" fill="url(#linearGradient-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

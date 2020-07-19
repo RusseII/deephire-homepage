@@ -1,34 +1,20 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import {PageHeader, Button, Divider} from 'antd'
+import DeepHireLogo from '../assets/deephireLogo.svg'
 
+console.log(DeepHireLogo)
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
+  <PageHeader onBack={() => window.open("https://deephire.com", "_self")} backIcon={<DeepHireLogo style={{width:32, height:32}}/>} title={<> <>{siteTitle}</></>}    extra={[
+    <Button type='text' key="0">Pricing</Button>,
+    <Button type='text' href='https://blog.deephire.com' key="1">Blog</Button>,
+    <Divider type="vertical" />,
+    <Button type='text' href='https://recruiter.deephire.com' key="2">Sign In</Button>,
+    , 
+    <Button key="1" type="primary">
+      Start Free Trial
+    </Button>,,
+  ]} />
 )
 
 Header.propTypes = {
