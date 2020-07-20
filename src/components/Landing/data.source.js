@@ -220,7 +220,7 @@ export const Feature20DataSource = {
   imgWrapper: { className: 'content2-img', md: 10, xs: 24 },
   img: {
     children:
-      'https://deephire.com/static/jobSeekerView-b90988c6b3000bcdf27784d6c3b471c3.jpg',
+      'https://deephire.s3.amazonaws.com/logos/Horizontal+White.svg',
     className: 'kctix2q22qe-editor_css',
   },
   textWrapper: { className: 'content2-text', md: 14, xs: 24 },
@@ -254,7 +254,7 @@ export const Feature10DataSource = {
   imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
   img: {
     children:
-      'https://deephire.com/static/shareCandidate-525e7ffe1051321d4dc0f12a1b4c95fb.jpg',
+      'https://deephire.s3.amazonaws.com/logos/Horizontal+White.svg',
     className: 'kctj0jmh4ej-editor_css',
   },
   textWrapper: { className: 'content1-text', md: 14, xs: 24 },
