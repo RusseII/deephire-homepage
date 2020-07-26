@@ -1,13 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import Page from "../components/Home/index.jsx"
+import Layout from "../components/Home/index.jsx"
+
+import Page from "../components/Zoom/index.jsx"
 
 const IndexPage = () => (
-    <Page></Page>
+    <Layout><Page/></Layout>
 )
 
 export default IndexPage

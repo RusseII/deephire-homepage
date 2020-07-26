@@ -1,5 +1,5 @@
 import React from 'react';
-export const Nav30DataSource = {
+export const Nav31DataSource = {
   wrapper: { className: 'header3 home-page-wrapper' },
   page: { className: 'home-page' },
   logo: {
@@ -18,7 +18,7 @@ export const Nav30DataSource = {
             {
               children: (
                 <span>
-                  <p>Product</p>
+                  <p>Products</p>
                 </span>
               ),
               name: 'text',
@@ -27,32 +27,6 @@ export const Nav30DataSource = {
         },
         subItem: [
           {
-            name: 'sub0',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
-              href: '',
-            },
-          },
-          {
             name: 'sub1',
             className: 'item-sub',
             children: {
@@ -60,27 +34,93 @@ export const Nav30DataSource = {
               children: [
                 {
                   name: 'image0',
-                  className: 'item-image',
+                  className: 'item-image kcz8wnt2acf-editor_css',
                   children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
+                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/91c5ff8d587a6ee8d197c8971c8e9fedd0c3ec04/packages/icons-svg/svg/outlined/laptop.svg',
                 },
                 {
                   name: 'title',
                   className: 'item-title',
-                  children: 'Ant Design',
+                  children: (
+                    <span>
+                      <p>Pre-Recorded</p>
+                    </span>
+                  ),
                 },
                 {
                   name: 'content',
                   className: 'item-content',
-                  children: '企业级 UI 设计体系',
+                  children: (
+                    <span>
+                      <span>
+                        <span>
+                          <p>High Volume</p>
+                        </span>
+                      </span>
+                    </span>
+                  ),
                 },
               ],
+              href: '/one-way-interviews',
+            },
+          },
+          {
+            name: 'sub~kcz008mmgsc',
+            className: 'item-sub',
+            children: {
+              className: 'item-sub-item kcz8vuom79d-editor_css',
+              children: [
+                {
+                  name: 'image0',
+                  className: 'item-image kcz8vvjskoi-editor_css',
+                  children:
+                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/91c5ff8d587a6ee8d197c8971c8e9fedd0c3ec04/packages/icons-svg/svg/twotone/video-camera.svg',
+                },
+                {
+                  name: 'title',
+                  className: 'item-title',
+                  children: (
+                    <span>
+                      <p>Live Interviews</p>
+                    </span>
+                  ),
+                },
+                {
+                  name: 'content',
+                  className: 'item-content',
+                  children: (
+                    <span>
+                      <p>Low Volume</p>
+                    </span>
+                  ),
+                },
+              ],
+              href: '/live-interviews',
             },
           },
         ],
       },
       {
         name: 'item2',
+        className: 'header3-item',
+        children: {
+          href: '/pricing',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <p>Pricing</p>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+      },
+      {
+        name: 'item1',
         className: 'header3-item',
         children: {
           href: 'https://blog.deephire.com',
@@ -95,9 +135,10 @@ export const Nav30DataSource = {
             },
           ],
         },
+        subItem: null,
       },
       {
-        name: 'item3',
+        name: 'item~kd351bwril7',
         className: 'header3-item',
         children: {
           href: 'https://recruiter.deephire.com',
@@ -112,18 +153,16 @@ export const Nav30DataSource = {
             },
           ],
         },
-        subItem: null,
       },
     ],
-    subItem: {},
   },
   mobileMenu: { className: 'header3-mobile-menu' },
 };
 export const Banner50DataSource = {
   wrapper: { className: 'home-page-wrapper banner5 kctityxly1r-editor_css' },
-  page: { className: 'home-page banner5-page' },
+  page: { className: 'home-page banner5-page kcz8vxyiuvj-editor_css' },
   childWrapper: {
-    className: 'banner5-title-wrapper',
+    className: 'banner5-title-wrapper kcxzzfruow-editor_css',
     children: [
       {
         name: 'title',
@@ -132,9 +171,13 @@ export const Banner50DataSource = {
             <span>
               <span>
                 <span>
-                  <p>
-                    <span>Video Interviews</span>
-                  </p>
+                  <span>
+                    <span>
+                      <p>
+                        <span>Video Interviews</span>
+                      </p>
+                    </span>
+                  </span>
                 </span>
               </span>
             </span>
@@ -151,17 +194,21 @@ export const Banner50DataSource = {
               <span>
                 <span>
                   <span>
-                    <p>
-                      <font>
-                        <font>
+                    <span>
+                      <span>
+                        <p>
                           <font>
                             <font>
-                              Video Interview Software Built For Recruiting.
+                              <font>
+                                <font>
+                                  Video Interview Software Built For Recruiting.
+                                </font>
+                              </font>
                             </font>
                           </font>
-                        </font>
-                      </font>
-                    </p>
+                        </p>
+                      </span>
+                    </span>
                   </span>
                 </span>
               </span>
@@ -177,13 +224,16 @@ export const Banner50DataSource = {
             <span>
               <span>
                 <span>
-                  <p>
-                    <font>
+                  <span>
+                    <p>
                       <font>
-                        Conduct live, or automated video interviews.&nbsp;
+                        <font>
+                          Conduct live, or automated video interviews. Without
+                          downloading a phone app.&nbsp;
+                        </font>
                       </font>
-                    </font>
-                  </p>
+                    </p>
+                  </span>
                 </span>
               </span>
             </span>
@@ -209,9 +259,8 @@ export const Banner50DataSource = {
     ],
   },
   image: {
-    className: 'banner5-image',
-    children:
-      'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*-wAhRYnWQscAAAAAAAAAAABkARQnAQ',
+    className: 'banner5-image kcxwzhfpex-editor_css',
+    children: 'https://deephire.s3.amazonaws.com/misc/russell-homepage.png',
   },
 };
 export const Feature20DataSource = {
@@ -220,12 +269,12 @@ export const Feature20DataSource = {
   imgWrapper: { className: 'content2-img', md: 10, xs: 24 },
   img: {
     children:
-      'https://deephire.s3.amazonaws.com/logos/Horizontal+White.svg',
+      'https://deephire.s3.amazonaws.com/misc/russell-interview-one-way.png',
     className: 'kctix2q22qe-editor_css',
   },
   textWrapper: { className: 'content2-text', md: 14, xs: 24 },
   title: {
-    className: 'content2-title',
+    className: 'content2-title kd0a71ngom9-editor_css',
     children: (
       <span>
         <span>
@@ -238,12 +287,46 @@ export const Feature20DataSource = {
     className: 'content2-content',
     children: (
       <span>
-        <p>
-          The world’s most convenient interviewing option! Pre-recorded
-          interviews allow candidates and hiring teams to participate on their
-          own time. Make scheduling conflicts and time zone considerations a
-          thing of the past while increasing time-to-hire by up to 80%.
-        </p>
+        <span>
+          <span>
+            <span>
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <p>
+                                If you could eliminate scheduling, decrease
+                                time-to-hire by 52%, and&nbsp;free up 10 hours
+                                per week per recruiter, would you?&nbsp;<br />
+                                <br />Pre-recorded video interviews let
+                                candidates answer interview questions whenever
+                                they have free time Wake up to completed
+                                interviews in your inbox.&nbsp;
+                              </p>
+                              <p>
+                                <br />
+                              </p>
+                              <p>
+                                <a href="/one-way-interviews">Learn More</a>
+                              </p>
+                              <p>
+                                <br />
+                              </p>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </span>
+        </span>
       </span>
     ),
   },
@@ -254,16 +337,18 @@ export const Feature10DataSource = {
   imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
   img: {
     children:
-      'https://deephire.s3.amazonaws.com/logos/Horizontal+White.svg',
+      'https://deephire.s3.amazonaws.com/misc/mikey-vid-interview-landing.png',
     className: 'kctj0jmh4ej-editor_css',
   },
   textWrapper: { className: 'content1-text', md: 14, xs: 24 },
   title: {
-    className: 'content1-title',
+    className: 'content1-title kd0a7gf5f2n-editor_css',
     children: (
       <span>
         <span>
-          <p>Live Video Interviews</p>
+          <span>
+            <p>Live Video Interviews</p>
+          </span>
         </span>
       </span>
     ),
@@ -272,12 +357,44 @@ export const Feature10DataSource = {
     className: 'content1-content',
     children: (
       <span>
-        <p>
-          Effectively pre-screen applicants by connecting with job applicants
-          face-to-face, in real-time, even at a distance. Our professional live
-          video interviewing software takes video conferencing freebies to the
-          next level.
-        </p>
+        <span>
+          <span>
+            <span>
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <p>
+                                  Live interviews are built for you, the
+                                  recruiter. You won't have to battle the
+                                  software to conduct video interviews. Your job
+                                  seekers can join in one click without having
+                                  to download an app.&nbsp;
+                                </p>
+                                <p>
+                                  <br />
+                                </p>
+                                <p>
+                                  <a href="/live-interviews">Learn More</a>
+                                  <br />
+                                </p>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </span>
+        </span>
       </span>
     ),
   },
@@ -304,7 +421,13 @@ export const Feature60DataSource = {
           children: (
             <span>
               <span>
-                <p>deephire users experience:</p>
+                <span>
+                  <span>
+                    <span>
+                      <p>You can achieve:</p>
+                    </span>
+                  </span>
+                </span>
               </span>
             </span>
           ),
@@ -414,7 +537,9 @@ export const Feature80DataSource = {
           <span>
             <span>
               <span>
-                <p>How It Works</p>
+                <span>
+                  <p>The Process</p>
+                </span>
               </span>
             </span>
           </span>
@@ -503,10 +628,12 @@ export const Feature80DataSource = {
                     className: 'feature8-block-content',
                     children: (
                       <span>
-                        <p>
-                          Specify a list of questions that you want a candidate
-                          to answer
-                        </p>
+                        <span>
+                          <p>
+                            Specify a list of questions that you want a
+                            candidate to answer.
+                          </p>
+                        </span>
                       </span>
                     ),
                   },
@@ -592,10 +719,12 @@ export const Feature80DataSource = {
                     className: 'feature8-block-content',
                     children: (
                       <span>
-                        <p>
-                          Watch all of the one-way interviews that your
-                          candidates have completed
-                        </p>
+                        <span>
+                          <p>
+                            Watch all of the one-way interviews that your
+                            candidates have completed.
+                          </p>
+                        </span>
                       </span>
                     ),
                   },
@@ -698,11 +827,13 @@ export const Feature80DataSource = {
                     className: 'feature8-block-content',
                     children: (
                       <span>
-                        <p>
-                          Schedule an interview between you and the candidate,
-                          or schedule a send out interview between the candidate
-                          and a client.
-                        </p>
+                        <span>
+                          <p>
+                            Either schedule an interview between you and the
+                            candidate. or schedule a send out interview between
+                            the candidate and a client.
+                          </p>
+                        </span>
                       </span>
                     ),
                   },
@@ -794,10 +925,14 @@ export const Feature80DataSource = {
                       <span>
                         <span>
                           <span>
-                            <p>
-                              Set bookmarks, add relevant documents and notes
-                              about the interview.
-                            </p>
+                            <span>
+                              <span>
+                                <p>
+                                  Set bookmarks, add relevant documents and
+                                  notes about the interview.
+                                </p>
+                              </span>
+                            </span>
                           </span>
                         </span>
                       </span>
@@ -843,11 +978,15 @@ export const Feature80DataSource = {
                       <span>
                         <span>
                           <span>
-                            <p>
-                              Share with the hiring manager. They are able to
-                              see the video, resume, bookmarks,&nbsp; and any
-                              documents all iin one place.&nbsp;
-                            </p>
+                            <span>
+                              <span>
+                                <p>
+                                  Share with the hiring manager. They are able
+                                  to see the video, resume, bookmarks,&nbsp; and
+                                  any documents all in one place.&nbsp;
+                                </p>
+                              </span>
+                            </span>
                           </span>
                         </span>
                       </span>

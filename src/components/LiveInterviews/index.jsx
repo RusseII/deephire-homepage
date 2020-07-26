@@ -3,22 +3,14 @@
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
 
-import Nav3 from './Nav3';
 import Banner5 from './Banner5';
-import Feature2 from './Feature2';
-import Feature1 from './Feature1';
-import Feature6 from './Feature6';
-import Feature8 from './Feature8';
-import Footer1 from './Footer1';
+import Feature7 from './Feature7';
+import Content11 from './Content11';
 
 import {
-  Nav30DataSource,
   Banner50DataSource,
-  Feature20DataSource,
-  Feature10DataSource,
-  Feature60DataSource,
-  Feature80DataSource,
-  Footer10DataSource,
+  Feature70DataSource,
+  Content110DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
 
@@ -58,46 +50,22 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
-      <Nav3
-        id="Nav3_0"
-        key="Nav3_0"
-        dataSource={Nav30DataSource}
-        isMobile={this.state.isMobile}
-      />,
       <Banner5
         id="Banner5_0"
         key="Banner5_0"
         dataSource={Banner50DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Feature2
-        id="Feature2_0"
-        key="Feature2_0"
-        dataSource={Feature20DataSource}
+      <Feature7
+        id="Feature7_0"
+        key="Feature7_0"
+        dataSource={Feature70DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Feature1
-        id="Feature1_0"
-        key="Feature1_0"
-        dataSource={Feature10DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Feature6
-        id="Feature6_0"
-        key="Feature6_0"
-        dataSource={Feature60DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Feature8
-        id="Feature8_0"
-        key="Feature8_0"
-        dataSource={Feature80DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Footer1
-        id="Footer1_0"
-        key="Footer1_0"
-        dataSource={Footer10DataSource}
+      <Content11
+        id="Content11_0"
+        key="Content11_0"
+        dataSource={Content110DataSource}
         isMobile={this.state.isMobile}
       />,
     ];
