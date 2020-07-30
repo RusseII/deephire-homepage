@@ -125,7 +125,6 @@ class Header3 extends React.Component {
               theme="light"
             >
               {navChildren}
-
             </Menu>
           </TweenOne>
         </div>

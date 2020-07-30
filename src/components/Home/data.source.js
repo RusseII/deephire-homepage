@@ -183,7 +183,7 @@ export const Banner50DataSource = {
             </span>
           </span>
         ),
-        className: 'banner5-title',
+        className: 'banner5-title kd5z81k44h-editor_css',
       },
       {
         name: 'explain',
@@ -245,7 +245,7 @@ export const Banner50DataSource = {
         className: 'banner5-button-wrapper',
         children: {
           href: 'https://recruiter.deephire.com/user/login?signupEmail=%20',
-          className: 'banner5-button',
+          className: 'banner5-button kd5z8m3n24l-editor_css',
           type: 'primary',
           children: (
             <span>
@@ -298,24 +298,20 @@ export const Feature20DataSource = {
                         <span>
                           <span>
                             <span>
-                              <p>
-                                If you could eliminate scheduling, decrease
-                                time-to-hire by 52%, and&nbsp;free up 10 hours
-                                per week per recruiter, would you?&nbsp;<br />
-                                <br />Pre-recorded video interviews let
-                                candidates answer interview questions whenever
-                                they have free time Wake up to completed
-                                interviews in your inbox.&nbsp;
-                              </p>
-                              <p>
-                                <br />
-                              </p>
-                              <p>
-                                <a href="/one-way-interviews">Learn More</a>
-                              </p>
-                              <p>
-                                <br />
-                              </p>
+                              <span>
+                                <p>
+                                  If you could eliminate scheduling, decrease
+                                  time-to-hire by 52%, and&nbsp;free up 10 hours
+                                  per week per recruiter, would you?&nbsp;<br />
+                                  <br />Pre-recorded video interviews let
+                                  candidates answer interview questions whenever
+                                  they have free time. Wake up to completed
+                                  interviews in your inbox.&nbsp;
+                                </p>
+                                <p>
+                                  <br />
+                                </p>
+                              </span>
                             </span>
                           </span>
                         </span>
@@ -560,6 +556,7 @@ export const Feature80DataSource = {
               <p>Start Now</p>
             </span>
           ),
+          className: 'kd5zcfd12kp-editor_css',
         },
       },
     ],
@@ -1050,40 +1047,44 @@ export const Footer10DataSource = {
         childWrapper: {
           children: [
             {
-              name: 'link0',
-              href: '#',
+              name: 'link2',
+              href: '/live-interviews',
               children: (
                 <span>
-                  <p>Login</p>
+                  <span>
+                    <p>Live Interviews</p>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'link0',
+              href: '/zoom',
+              children: (
+                <span>
+                  <p>DeepHire vs Zoom</p>
                 </span>
               ),
             },
             {
               name: 'link1',
-              href: '#',
+              href: 'https://blog.deephire.com',
               children: (
                 <span>
                   <p>Blog</p>
                 </span>
               ),
-            },
-            {
-              name: 'link2',
-              href: '#',
-              children: (
-                <span>
-                  <p>Demo</p>
-                </span>
-              ),
+              target: '_blank',
             },
             {
               name: 'link3',
-              href: '#',
+              href: 'https://anchor.fm/deephire-podcast',
               children: (
                 <span>
                   <p>Podcast</p>
                 </span>
               ),
+              target: '_blank',
             },
           ],
         },
@@ -1112,7 +1113,7 @@ export const Footer10DataSource = {
               ),
             },
             {
-              href: '#',
+              href: 'https://help.deephire.com',
               name: 'link1',
               children: (
                 <span>
@@ -1131,29 +1132,33 @@ export const Footer10DataSource = {
         title: {
           children: (
             <span>
-              <p>Follow Us</p>
+              <span>
+                <p>Follow Us</p>
+              </span>
             </span>
           ),
         },
         childWrapper: {
           children: [
             {
-              href: '#',
+              href: 'https://www.linkedin.com/company/deephire',
               name: 'link0',
               children: (
                 <span>
                   <p>Linkedin</p>
                 </span>
               ),
+              target: '_blank',
             },
             {
-              href: '#',
+              href: 'https://www.facebook.com/deephire.io',
               name: 'link1',
               children: (
                 <span>
                   <p>Facebook</p>
                 </span>
               ),
+              target: '_blank',
             },
           ],
         },
