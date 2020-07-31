@@ -53,6 +53,12 @@ module.exports = {
         fs_org: 'FDMJN',
       },
     },
+      {
+        resolve: `gatsby-plugin-google-analytics`,
+        options: {
+          trackingId: "UA-103192788-2",
+        }
+      },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
