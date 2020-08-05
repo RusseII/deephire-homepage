@@ -45,7 +45,7 @@ export default class Home extends React.Component {
 
       setTimeout(() => {
           openNotification()
-      }, 3000)
+      }, 15000)
     // 适配手机屏幕;
     enquireScreen((b) => {
       this.setState({ isMobile: !!b });
