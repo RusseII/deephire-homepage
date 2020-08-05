@@ -1,5 +1,5 @@
 import { NowRequest, NowResponse } from '@vercel/node'
-const sendMsg = require('./test')
+const sendMsg = require('./test').sendMsg
 
 const handler = async (req: NowRequest, res: NowResponse) => {
   if (req.body) {

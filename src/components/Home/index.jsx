@@ -22,6 +22,9 @@ import {
 } from './data.source';
 import './less/antMotionStyle.less';
 
+import { openNotification } from '../Notification'
+import OnLeave from '../OnLeave'
+
 let isMobile;
 enquireScreen((b) => {
   isMobile = b;
@@ -39,6 +42,10 @@ export default class Home extends React.Component {
   }
 
   componentDidMount() {
+
+      setTimeout(() => {
+          openNotification()
+      }, 3000)
     // 适配手机屏幕;
     enquireScreen((b) => {
       this.setState({ isMobile: !!b });
@@ -108,6 +115,8 @@ export default class Home extends React.Component {
           this.dom = d;
         }}
       >
+<OnLeave />
+
         {/* 如果不是 dva 2.0 替换成 {children} start */}
         {this.state.show && children}
         {/* 如果不是 dva 2.0 替换成 {children} end */}
