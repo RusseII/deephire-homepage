@@ -74,7 +74,7 @@ export const openNotification = () => {
     message: "Ultimate Guide To Video Interviewing - Free Book",
     description: (
       <EmailForm
-        type="ebook notification"
+        type="notification email capture"
         text="Learn how the best companies are changing their recruiting strategies during COVID"
       />
     ),
