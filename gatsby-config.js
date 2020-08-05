@@ -50,7 +50,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-fullstory`,
       options: {
-        fs_org: 'FDMJN',
+        fs_org: 'PSXP7',
       },
     },
       {
