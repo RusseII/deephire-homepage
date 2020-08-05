@@ -3,7 +3,7 @@ const url = require('url')
 const MongoClient = require('mongodb').MongoClient
 const ObjectID =require('mongodb').ObjectID
 const moment = require('moment');
-const sendMsg = require('./test').sendMsg
+const sendMsg = require('./helpers').sendMsg
 const connectToDatabase = require('./connectToDatabase')
 
 

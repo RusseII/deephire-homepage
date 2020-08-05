@@ -1,5 +1,5 @@
 import { NowRequest, NowResponse } from '@vercel/node'
-const sendMsg = require('./test').sendMsg
+const sendMsg = require('./helpers').sendMsg
 
 const handler = async (req: NowRequest, res: NowResponse) => {
   if (req.body) {
@@ -12,6 +12,7 @@ const handler = async (req: NowRequest, res: NowResponse) => {
     res.status(400).json({ status: "you need to send a json" })
   }
 }
+
 
 // const allowCors = fn => async (req, res) => {
 //   res.setHeader('Access-Control-Allow-Credentials', true)
