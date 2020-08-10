@@ -43,7 +43,7 @@ export const Banner40DataSource = {
       {
         name: 'button',
         children: {
-          href: '#',
+          href: 'https://recruiter.deephire.com/user/login?signupEmail=%20',
           type: 'primary',
           children: (
             <span>
