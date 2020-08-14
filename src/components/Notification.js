@@ -24,7 +24,8 @@ const onFinish = (values, type, next) => {
     })
   }
   window.$crisp.push(["set", "user:email", [values.email]])
-  window.$crisp.push(["set", "session:segments", [["landing-website-capture"]]])
+  window.$crisp.push(["set", "session:segments", [[type]]])
+  window.$crisp.push(["set", "session:event", [[type, values.email]]])
   next()
 }
 
@@ -74,7 +75,7 @@ export const openNotification = () => {
     message: "Ultimate Guide To Video Interviewing - Free Book",
     description: (
       <EmailForm
-        type="notification email capture"
+        type="notification-capture"
         text="Learn how the best companies are changing their recruiting strategies during COVID"
       />
     ),

@@ -62,7 +62,7 @@ const OnLeave = () => {
         </span>
       </div>
 
-      <EmailForm type="exit intent email capture" next={next}></EmailForm>
+      <EmailForm type="exit-intent-capture" next={next}></EmailForm>
     </Modal>
   )
 }
