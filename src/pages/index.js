@@ -17,7 +17,7 @@ const IndexPage = () => {
 
 
 
-    return (<> <SEO title="Video Interviews" />
+    return (<> <SEO title="Video Interviews" description="Live and One-Way video interviews for Recruiters."/>
 
       
         <Alert closable style={{ textAlign: 'center' }} showIcon={false} type='info' message={<div><Tag color="blue">New</Tag> <>Live Interviews built for recruiters.</><Link style={{ marginLeft: 8 }} to='/live-interviews'>Learn More</Link></div>} banner />

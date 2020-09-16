@@ -110,7 +110,9 @@ export const Nav31DataSource = {
               children: (
                 <span>
                   <span>
-                    <p>Pricing</p>
+                    <span>
+                      <p>Solutions</p>
+                    </span>
                   </span>
                 </span>
               ),
@@ -128,7 +130,13 @@ export const Nav31DataSource = {
             {
               children: (
                 <span>
-                  <p>Blog</p>
+                  <span>
+                    <span>
+                      <span>
+                        <p>Pricing</p>
+                      </span>
+                    </span>
+                  </span>
                 </span>
               ),
               name: 'text',
@@ -136,6 +144,52 @@ export const Nav31DataSource = {
           ],
         },
         subItem: null,
+      },
+      {
+        name: 'item~kekdqa5vrlj',
+        className: 'header3-item',
+        children: {
+          href: 'https://recruiter.deephire.com',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>Customers</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+      },
+      {
+        name: 'item~kekdrohjv26',
+        className: 'header3-item',
+        children: {
+          href: 'https://recruiter.deephire.com',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>Login</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
       },
       {
         name: 'item~kd351bwril7',
@@ -146,13 +200,112 @@ export const Nav31DataSource = {
             {
               children: (
                 <span>
-                  <p>Login</p>
+                  <span>
+                    <p>Request a Demo</p>
+                  </span>
                 </span>
               ),
               name: 'text',
             },
           ],
         },
+      },
+      {
+        name: 'item~keu6tmfv74a',
+        className: 'header3-item',
+        children: {
+          href: '#',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <p>Resources</p>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+        subItem: [
+          {
+            name: 'sub1',
+            className: 'item-sub',
+            children: {
+              className: 'item-sub-item',
+              children: [
+                {
+                  name: 'image0',
+                  className: 'item-image kcz8wnt2acf-editor_css',
+                  children:
+                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/book.svg',
+                },
+                {
+                  name: 'title',
+                  className: 'item-title',
+                  children: (
+                    <span>
+                      <span>
+                        <p>Blog</p>
+                      </span>
+                    </span>
+                  ),
+                },
+                {
+                  name: 'content',
+                  className: 'item-content',
+                  children: (
+                    <span>
+                      <p>Best Practices</p>
+                    </span>
+                  ),
+                },
+              ],
+              href: 'https://blog.deephire.com',
+              target: '_blank',
+            },
+          },
+          {
+            name: 'sub~kcz008mmgsc',
+            className: 'item-sub',
+            children: {
+              className: 'item-sub-item kcz8vuom79d-editor_css',
+              children: [
+                {
+                  name: 'image0',
+                  className: 'item-image kcz8vvjskoi-editor_css',
+                  children:
+                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/sound.svg',
+                },
+                {
+                  name: 'title',
+                  className: 'item-title',
+                  children: (
+                    <span>
+                      <span>
+                        <p>Podcast</p>
+                      </span>
+                    </span>
+                  ),
+                },
+                {
+                  name: 'content',
+                  className: 'item-content',
+                  children: (
+                    <span>
+                      <span>
+                        <p>Top Recruiters</p>
+                      </span>
+                    </span>
+                  ),
+                },
+              ],
+              href: 'https://anchor.fm/deephire-podcast',
+              target: '_blank',
+            },
+          },
+        ],
       },
     ],
   },
@@ -173,9 +326,11 @@ export const Banner50DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>
-                        <span>Video Interviews</span>
-                      </p>
+                      <span>
+                        <span>
+                          <p>Best Video Interview Software</p>
+                        </span>
+                      </span>
                     </span>
                   </span>
                 </span>
@@ -196,17 +351,19 @@ export const Banner50DataSource = {
                   <span>
                     <span>
                       <span>
-                        <p>
-                          <font>
+                        <span>
+                          <p>
                             <font>
                               <font>
                                 <font>
-                                  Video Interview Software Built For Recruiting.
+                                  <font>
+                                    Make your recruitment team a hiring machine.
+                                  </font>
                                 </font>
                               </font>
                             </font>
-                          </font>
-                        </p>
+                          </p>
+                        </span>
                       </span>
                     </span>
                   </span>
@@ -225,14 +382,17 @@ export const Banner50DataSource = {
               <span>
                 <span>
                   <span>
-                    <p>
-                      <font>
-                        <font>
-                          Conduct live, or automated video interviews. Without
-                          downloading a phone app.&nbsp;
-                        </font>
-                      </font>
-                    </p>
+                    <span>
+                      <span>
+                        <p>Qualify Candidates Faster</p>
+                        <p>
+                          <span>Increase Revenue&nbsp;</span>
+                        </p>
+                        <p>
+                          <span>Reduce Time to Hire</span>
+                        </p>
+                      </span>
+                    </span>
                   </span>
                 </span>
               </span>
@@ -249,9 +409,13 @@ export const Banner50DataSource = {
           type: 'primary',
           children: (
             <span>
-              <font>
-                <font>Start Free Trial</font>
-              </font>
+              <span>
+                <span>
+                  <font>
+                    <font>GET DEMO</font>
+                  </font>
+                </span>
+              </span>
             </span>
           ),
         },
@@ -263,136 +427,233 @@ export const Banner50DataSource = {
     children: 'https://deephire.s3.amazonaws.com/misc/russell-homepage.png',
   },
 };
-export const Feature20DataSource = {
-  wrapper: { className: 'home-page-wrapper content2-wrapper' },
-  OverPack: { className: 'home-page content2', playScale: 0.3 },
-  imgWrapper: { className: 'content2-img', md: 10, xs: 24 },
-  img: {
-    children:
-      'https://deephire.s3.amazonaws.com/misc/russell-interview-one-way.png',
-    className: 'kctix2q22qe-editor_css',
-  },
-  textWrapper: { className: 'content2-text', md: 14, xs: 24 },
-  title: {
-    className: 'content2-title kd0a71ngom9-editor_css',
-    children: (
-      <span>
-        <span>
-          <p>Pre-Recorded Video Interviews</p>
-        </span>
-      </span>
-    ),
-  },
-  content: {
-    className: 'content2-content',
-    children: (
-      <span>
-        <span>
+export const Feature40DataSource = {
+  wrapper: { className: 'home-page-wrapper content6-wrapper' },
+  OverPack: { className: 'home-page content6' },
+  textWrapper: { className: 'content6-text', xs: 24, md: 10 },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      {
+        name: 'title',
+        children: (
           <span>
+            <span>
+              <p>Streamline Every Step in Your Interviewing Process.&nbsp;</p>
+            </span>
+          </span>
+        ),
+        className: 'title-h1',
+      },
+    ],
+  },
+  img: {
+    children: 'https://zos.alipayobjects.com/rmsportal/VHGOVdYyBwuyqCx.png',
+    className: 'content6-img',
+    xs: 24,
+    md: 14,
+  },
+  block: {
+    children: [
+      {
+        name: 'block0',
+        img: {
+          children:
+            'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
+          className: 'content6-icon',
+        },
+        title: {
+          className: 'content6-title',
+          children: (
+            <span>
+              <p>Make every recruiter consistent and scalable.&nbsp;</p>
+            </span>
+          ),
+        },
+        content: {
+          className: 'content6-content',
+          children: (
+            <span>
+              <p>
+                A single platform to drive efficiency and effectiveness for
+                Sourcers, Recruiters, Screeners, Account Managers, and Hiring
+                Authorities.&nbsp;
+              </p>
+            </span>
+          ),
+        },
+      },
+      {
+        name: 'block1',
+        img: {
+          className: 'content6-icon',
+          children:
+            'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
+        },
+        title: {
+          className: 'content6-title',
+          children: (
+            <span>
+              <p>Optimize your process to fill more roles faster.&nbsp;</p>
+            </span>
+          ),
+        },
+        content: {
+          className: 'content6-content',
+          children: (
+            <span>
+              <p>
+                Collaborate with Hiring Authorities to ensure the best
+                candidates move forward at every step.&nbsp;
+              </p>
+            </span>
+          ),
+        },
+      },
+      {
+        name: 'block2',
+        img: {
+          className: 'content6-icon',
+          children:
+            'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+        },
+        title: {
+          className: 'content6-title',
+          children: (
             <span>
               <span>
                 <span>
-                  <span>
-                    <span>
-                      <span>
-                        <span>
-                          <span>
-                            <span>
-                              <span>
-                                <p>
-                                  If you could eliminate scheduling, decrease
-                                  time-to-hire by 52%, and&nbsp;free up 10 hours
-                                  per week per recruiter, would you?&nbsp;<br />
-                                  <br />Pre-recorded video interviews let
-                                  candidates answer interview questions whenever
-                                  they have free time. Wake up to completed
-                                  interviews in your inbox.&nbsp;
-                                </p>
-                                <p>
-                                  <br />
-                                </p>
-                              </span>
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </span>
-                  </span>
+                  <p>
+                    Stand out from the competition and win more roles.&nbsp;
+                  </p>
                 </span>
               </span>
             </span>
-          </span>
-        </span>
-      </span>
-    ),
+          ),
+        },
+        content: {
+          className: 'content6-content',
+          children: (
+            <span>
+              <span>
+                <p>
+                  Use a clean, simple, state of the art interviewing technology
+                  to provide the perfect hiring experience.&nbsp;
+                </p>
+              </span>
+            </span>
+          ),
+        },
+      },
+    ],
   },
 };
-export const Feature10DataSource = {
-  wrapper: { className: 'home-page-wrapper content1-wrapper' },
-  OverPack: { className: 'home-page content1', playScale: 0.3 },
-  imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
-  img: {
-    children:
-      'https://deephire.s3.amazonaws.com/misc/mikey-vid-interview-landing.png',
-    className: 'kctj0jmh4ej-editor_css',
-  },
-  textWrapper: { className: 'content1-text', md: 14, xs: 24 },
-  title: {
-    className: 'content1-title kd0a7gf5f2n-editor_css',
-    children: (
-      <span>
-        <span>
+export const Content121DataSource = {
+  wrapper: { className: 'home-page-wrapper content12-wrapper' },
+  page: { className: 'home-page content12' },
+  OverPack: { playScale: 0.3, className: '' },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      {
+        name: 'image',
+        children:
+          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
+        className: 'title-image',
+      },
+      {
+        name: 'title',
+        children: (
           <span>
-            <p>Live Video Interviews</p>
+            <p>Join the Incredible Organizations using DeepHire</p>
           </span>
-        </span>
-      </span>
-    ),
+        ),
+        className: 'title-h1',
+      },
+    ],
   },
-  content: {
-    className: 'content1-content',
-    children: (
-      <span>
-        <span>
-          <span>
-            <span>
-              <span>
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <span>
-                          <span>
-                            <span>
-                              <span>
-                                <p>
-                                  Live interviews are built for you, the
-                                  recruiter. You won't have to battle the
-                                  software to conduct video interviews. Your job
-                                  seekers can join in one click without having
-                                  to download an app.&nbsp;
-                                </p>
-                                <p>
-                                  <br />
-                                </p>
-                                <p>
-                                  <a href="/live-interviews">Learn More</a>
-                                  <br />
-                                </p>
-                              </span>
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              </span>
-            </span>
-          </span>
-        </span>
-      </span>
-    ),
+  block: {
+    className: 'img-wrapper',
+    children: [
+      {
+        name: 'block0',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        children: {
+          wrapper: { className: 'block-content' },
+          img: {
+            children:
+              'https://gw.alipayobjects.com/zos/rmsportal/TFicUVisNHTOEeMYXuQF.svg',
+          },
+        },
+      },
+      {
+        name: 'block1',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        children: {
+          wrapper: { className: 'block-content' },
+          img: {
+            children:
+              'https://gw.alipayobjects.com/zos/rmsportal/hkLGkrlCEkGZeMQlnEkD.svg',
+          },
+        },
+      },
+      {
+        name: 'block2',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        children: {
+          wrapper: { className: 'block-content' },
+          img: {
+            children:
+              'https://gw.alipayobjects.com/zos/rmsportal/bqyPRSZmhvrsfJrBvASi.svg',
+          },
+        },
+      },
+      {
+        name: 'block3',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        children: {
+          wrapper: { className: 'block-content' },
+          img: {
+            children:
+              'https://gw.alipayobjects.com/zos/rmsportal/UcsyszzOabdCYDkoPPnM.svg',
+          },
+        },
+      },
+      {
+        name: 'block4',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        children: {
+          wrapper: { className: 'block-content' },
+          img: {
+            children:
+              'https://gw.alipayobjects.com/zos/rmsportal/kRBeaICGexAmVjqBEqgw.svg',
+          },
+        },
+      },
+      {
+        name: 'block5',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        children: {
+          wrapper: { className: 'block-content' },
+          img: {
+            children:
+              'https://gw.alipayobjects.com/zos/rmsportal/ftBIiyJcCHpHEioRvPsV.svg',
+          },
+        },
+      },
+    ],
   },
 };
 export const Feature60DataSource = {
@@ -519,482 +780,166 @@ export const Feature60DataSource = {
     ],
   },
 };
-export const Feature80DataSource = {
-  wrapper: { className: 'home-page-wrapper feature8-wrapper' },
-  page: { className: 'home-page feature8' },
-  OverPack: { playScale: 0.3 },
+export const Content50DataSource = {
+  wrapper: { className: 'home-page-wrapper content5-wrapper' },
+  page: { className: 'home-page content5' },
+  OverPack: { playScale: 0.3, className: '' },
   titleWrapper: {
-    className: 'feature8-title-wrapper',
+    className: 'title-wrapper',
     children: [
       {
         name: 'title',
-        className: 'feature8-title-h1',
+        children: (
+          <span>
+            <p>Resources to Support You Along the Way</p>
+          </span>
+        ),
+        className: 'title-h1',
+      },
+    ],
+  },
+  block: {
+    className: 'content5-img-wrapper',
+    gutter: 16,
+    children: [
+      {
+        name: 'block2',
+        className: 'block',
+        md: 12,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+          },
+          content: {
+            children: (
+              <span>
+                <span>
+                  <p>ROI Calculator</p>
+                </span>
+              </span>
+            ),
+          },
+        },
+      },
+      {
+        name: 'block3',
+        className: 'block',
+        md: 12,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+          },
+          content: {
+            children: (
+              <span>
+                <span>
+                  <p>Comparison: Why DeepHire vs Zoom?&nbsp;</p>
+                </span>
+              </span>
+            ),
+          },
+        },
+      },
+      {
+        name: 'block5',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+          },
+          content: {
+            children: (
+              <span>
+                <p>How to Create an MPC Process that Wins New Clients</p>
+              </span>
+            ),
+          },
+        },
+      },
+      {
+        name: 'block6',
+        className: 'block',
+        md: 24,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+          },
+          content: {
+            children: (
+              <span>
+                <p>What is a Video Interviewing Platform?&nbsp;</p>
+              </span>
+            ),
+          },
+        },
+      },
+    ],
+  },
+};
+export const Content110DataSource = {
+  OverPack: {
+    className: 'home-page-wrapper content11-wrapper',
+    playScale: 0.3,
+  },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      {
+        name: 'image',
+        children:
+          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
+        className: 'title-image',
+      },
+      {
+        name: 'title',
+        children: (
+          <span>
+            <p>Ready to Become More Effective?&nbsp;</p>
+          </span>
+        ),
+        className: 'title-h1',
+      },
+      {
+        name: 'content',
+        children: (
+          <span>
+            <p>
+              DeepHire is more than just software - with our Video Interviewing
+              platform, you get a playbook for success.&nbsp;
+            </p>
+          </span>
+        ),
+        className: 'title-content',
+      },
+    ],
+  },
+  button: {
+    className: '',
+    children: {
+      a: {
+        className: 'button',
+        href: '#',
         children: (
           <span>
             <span>
-              <span>
-                <span>
-                  <p>The Process</p>
-                </span>
-              </span>
+              <p>GET DEMO</p>
             </span>
           </span>
         ),
       },
-    ],
-  },
-  childWrapper: {
-    className: 'feature8-button-wrapper',
-    children: [
-      {
-        name: 'button',
-        className: 'feature8-button',
-        children: {
-          href: 'https://recruiter.deephire.com/user/login?signupEmail=%20',
-          children: (
-            <span>
-              <p>Start Now</p>
-            </span>
-          ),
-          className: 'kd5zcfd12kp-editor_css',
-        },
-      },
-    ],
-  },
-  Carousel: {
-    dots: false,
-    className: 'feature8-carousel',
-    wrapper: { className: 'feature8-block-wrapper' },
-    children: {
-      className: 'feature8-block',
-      titleWrapper: {
-        className: 'feature8-carousel-title-wrapper',
-        title: { className: 'feature8-carousel-title' },
-      },
-      children: [
-        {
-          name: 'block0',
-          className: 'feature8-block-row',
-          gutter: 120,
-          title: {
-            className: 'feature8-carousel-title-block',
-            children: (
-              <span>
-                <p>One Way Interviews</p>
-                <p>
-                  <br />
-                </p>
-              </span>
-            ),
-          },
-          children: [
-            {
-              className: 'feature8-block-col',
-              md: 6,
-              xs: 24,
-              name: 'child0',
-              arrow: {
-                className: 'feature8-block-arrow',
-                children:
-                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
-              },
-              children: {
-                className: 'feature8-block-child',
-                children: [
-                  {
-                    name: 'image',
-                    className: 'feature8-block-image',
-                    children:
-                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
-                  },
-                  {
-                    name: 'title',
-                    className: 'feature8-block-title',
-                    children: (
-                      <span>
-                        <span>
-                          <span>
-                            <p>Create Job</p>
-                          </span>
-                        </span>
-                      </span>
-                    ),
-                  },
-                  {
-                    name: 'content',
-                    className: 'feature8-block-content',
-                    children: (
-                      <span>
-                        <span>
-                          <p>
-                            Specify a list of questions that you want a
-                            candidate to answer.
-                          </p>
-                        </span>
-                      </span>
-                    ),
-                  },
-                ],
-              },
-            },
-            {
-              className: 'feature8-block-col',
-              md: 6,
-              xs: 24,
-              name: 'child1',
-              arrow: {
-                className: 'feature8-block-arrow',
-                children:
-                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
-              },
-              children: {
-                className: 'feature8-block-child',
-                children: [
-                  {
-                    name: 'image',
-                    className: 'feature8-block-image',
-                    children:
-                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
-                  },
-                  {
-                    name: 'title',
-                    className: 'feature8-block-title',
-                    children: (
-                      <span>
-                        <p>Invite Candidates</p>
-                      </span>
-                    ),
-                  },
-                  {
-                    name: 'content',
-                    className: 'feature8-block-content',
-                    children: (
-                      <span>
-                        <span>
-                          <p>
-                            Invite candidates with one click. They will receive
-                            automated follow-ups to ensure a high completion
-                            rate.
-                          </p>
-                        </span>
-                      </span>
-                    ),
-                  },
-                ],
-              },
-            },
-            {
-              className: 'feature8-block-col',
-              md: 6,
-              xs: 24,
-              name: 'child2',
-              arrow: {
-                className: 'feature8-block-arrow',
-                children:
-                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
-              },
-              children: {
-                className: 'feature8-block-child',
-                children: [
-                  {
-                    name: 'image',
-                    className: 'feature8-block-image',
-                    children:
-                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
-                  },
-                  {
-                    name: 'title',
-                    className: 'feature8-block-title',
-                    children: (
-                      <span>
-                        <p>View Responses</p>
-                      </span>
-                    ),
-                  },
-                  {
-                    name: 'content',
-                    className: 'feature8-block-content',
-                    children: (
-                      <span>
-                        <span>
-                          <p>
-                            Watch all of the one-way interviews that your
-                            candidates have completed.
-                          </p>
-                        </span>
-                      </span>
-                    ),
-                  },
-                ],
-              },
-            },
-            {
-              className: 'feature8-block-col',
-              md: 6,
-              xs: 24,
-              name: 'child3',
-              arrow: {
-                className: 'feature8-block-arrow',
-                children:
-                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
-              },
-              children: {
-                className: 'feature8-block-child',
-                children: [
-                  {
-                    name: 'image',
-                    className: 'feature8-block-image',
-                    children:
-                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
-                  },
-                  {
-                    name: 'title',
-                    className: 'feature8-block-title',
-                    children: (
-                      <span>
-                        <p>Share Candidate</p>
-                      </span>
-                    ),
-                  },
-                  {
-                    name: 'content',
-                    className: 'feature8-block-content',
-                    children: (
-                      <span>
-                        <p>
-                          Create a public shareable link that you can share with
-                          the client or hiring manager.
-                        </p>
-                      </span>
-                    ),
-                  },
-                ],
-              },
-            },
-          ],
-        },
-        {
-          name: 'block1',
-          className: 'feature8-block-row',
-          gutter: 120,
-          title: {
-            children: (
-              <span>
-                <span>
-                  <p>Live Interviews</p>
-                  <p>
-                    <br />
-                  </p>
-                </span>
-              </span>
-            ),
-            className: 'feature8-carousel-title-block',
-          },
-          children: [
-            {
-              className: 'feature8-block-col',
-              md: 6,
-              xs: 24,
-              name: 'child0',
-              arrow: {
-                className: 'feature8-block-arrow',
-                children:
-                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
-              },
-              children: {
-                className: 'feature8-block-child',
-                children: [
-                  {
-                    name: 'image',
-                    className: 'feature8-block-image',
-                    children:
-                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
-                  },
-                  {
-                    name: 'title',
-                    className: 'feature8-block-title',
-                    children: (
-                      <span>
-                        <p>Create Interview</p>
-                      </span>
-                    ),
-                  },
-                  {
-                    name: 'content',
-                    className: 'feature8-block-content',
-                    children: (
-                      <span>
-                        <span>
-                          <p>
-                            Either schedule an interview between you and the
-                            candidate. or schedule a send out interview between
-                            the candidate and a client.
-                          </p>
-                        </span>
-                      </span>
-                    ),
-                  },
-                ],
-              },
-            },
-            {
-              className: 'feature8-block-col',
-              md: 6,
-              xs: 24,
-              name: 'child1',
-              arrow: {
-                className: 'feature8-block-arrow',
-                children:
-                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
-              },
-              children: {
-                className: 'feature8-block-child',
-                children: [
-                  {
-                    name: 'image',
-                    className: 'feature8-block-image',
-                    children:
-                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
-                  },
-                  {
-                    name: 'title',
-                    className: 'feature8-block-title',
-                    children: (
-                      <span>
-                        <span>
-                          <span>
-                            <p>Conduct Interview</p>
-                          </span>
-                        </span>
-                      </span>
-                    ),
-                  },
-                  {
-                    name: 'content',
-                    className: 'feature8-block-content',
-                    children: (
-                      <span>
-                        <p>
-                          Join the interview with one click, no app download
-                          required. View the candidates resume &amp; take notes
-                          inside the interview.
-                        </p>
-                      </span>
-                    ),
-                  },
-                ],
-              },
-            },
-            {
-              className: 'feature8-block-col',
-              md: 6,
-              xs: 24,
-              name: 'child2',
-              arrow: {
-                className: 'feature8-block-arrow',
-                children:
-                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
-              },
-              children: {
-                className: 'feature8-block-child',
-                children: [
-                  {
-                    name: 'image',
-                    className: 'feature8-block-image',
-                    children:
-                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
-                  },
-                  {
-                    name: 'title',
-                    className: 'feature8-block-title',
-                    children: (
-                      <span>
-                        <span>
-                          <p>Bookmark Interview</p>
-                        </span>
-                      </span>
-                    ),
-                  },
-                  {
-                    name: 'content',
-                    className: 'feature8-block-content',
-                    children: (
-                      <span>
-                        <span>
-                          <span>
-                            <span>
-                              <span>
-                                <p>
-                                  Set bookmarks, add relevant documents and
-                                  notes about the interview.
-                                </p>
-                              </span>
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    ),
-                  },
-                ],
-              },
-            },
-            {
-              className: 'feature8-block-col',
-              md: 6,
-              xs: 24,
-              name: 'child3',
-              arrow: {
-                className: 'feature8-block-arrow',
-                children:
-                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
-              },
-              children: {
-                className: 'feature8-block-child',
-                children: [
-                  {
-                    name: 'image',
-                    className: 'feature8-block-image',
-                    children:
-                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
-                  },
-                  {
-                    name: 'title',
-                    className: 'feature8-block-title',
-                    children: (
-                      <span>
-                        <span>
-                          <p>Share Interview</p>
-                        </span>
-                      </span>
-                    ),
-                  },
-                  {
-                    name: 'content',
-                    className: 'feature8-block-content',
-                    children: (
-                      <span>
-                        <span>
-                          <span>
-                            <span>
-                              <span>
-                                <p>
-                                  Share with the hiring manager. They are able
-                                  to see the video, resume, bookmarks,&nbsp; and
-                                  any documents all in one place.&nbsp;
-                                </p>
-                              </span>
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    ),
-                  },
-                ],
-              },
-            },
-          ],
-        },
-      ],
     },
   },
 };

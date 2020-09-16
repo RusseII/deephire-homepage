@@ -5,25 +5,24 @@ import { enquireScreen } from 'enquire-js';
 
 import Nav3 from './Nav3';
 import Banner5 from './Banner5';
-import Feature2 from './Feature2';
-import Feature1 from './Feature1';
+import Feature4 from './Feature4';
+import Content12 from './Content12';
 import Feature6 from './Feature6';
-import Feature8 from './Feature8';
+import Content5 from './Content5';
+import Content11 from './Content11';
 import Footer1 from './Footer1';
 
 import {
   Nav31DataSource,
   Banner50DataSource,
-  Feature20DataSource,
-  Feature10DataSource,
+  Feature40DataSource,
+  Content121DataSource,
   Feature60DataSource,
-  Feature80DataSource,
+  Content50DataSource,
+  Content110DataSource,
   Footer10DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
-
-import { openNotification } from '../Notification'
-import OnLeave from '../OnLeave'
 
 let isMobile;
 enquireScreen((b) => {
@@ -42,10 +41,6 @@ export default class Home extends React.Component {
   }
 
   componentDidMount() {
-
-      setTimeout(() => {
-          openNotification()
-      }, 15000)
     // 适配手机屏幕;
     enquireScreen((b) => {
       this.setState({ isMobile: !!b });
@@ -77,16 +72,16 @@ export default class Home extends React.Component {
         dataSource={Banner50DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Feature2
-        id="Feature2_0"
-        key="Feature2_0"
-        dataSource={Feature20DataSource}
+      <Feature4
+        id="Feature4_0"
+        key="Feature4_0"
+        dataSource={Feature40DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Feature1
-        id="Feature1_0"
-        key="Feature1_0"
-        dataSource={Feature10DataSource}
+      <Content12
+        id="Content12_1"
+        key="Content12_1"
+        dataSource={Content121DataSource}
         isMobile={this.state.isMobile}
       />,
       <Feature6
@@ -95,10 +90,16 @@ export default class Home extends React.Component {
         dataSource={Feature60DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Feature8
-        id="Feature8_0"
-        key="Feature8_0"
-        dataSource={Feature80DataSource}
+      <Content5
+        id="Content5_0"
+        key="Content5_0"
+        dataSource={Content50DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Content11
+        id="Content11_0"
+        key="Content11_0"
+        dataSource={Content110DataSource}
         isMobile={this.state.isMobile}
       />],
       <Footer1
@@ -115,8 +116,6 @@ export default class Home extends React.Component {
           this.dom = d;
         }}
       >
-<OnLeave />
-
         {/* 如果不是 dva 2.0 替换成 {children} start */}
         {this.state.show && children}
         {/* 如果不是 dva 2.0 替换成 {children} end */}
