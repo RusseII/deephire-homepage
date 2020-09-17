@@ -10,7 +10,7 @@ export const Nav31DataSource = {
     className: 'header3-menu',
     children: [
       {
-        name: 'item0',
+        name: 'item~kf6zw8yhaem',
         className: 'header3-item',
         children: {
           href: '#',
@@ -18,7 +18,15 @@ export const Nav31DataSource = {
             {
               children: (
                 <span>
-                  <p>Products</p>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>Product</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
                 </span>
               ),
               name: 'text',
@@ -36,25 +44,40 @@ export const Nav31DataSource = {
                   name: 'image0',
                   className: 'item-image kcz8wnt2acf-editor_css',
                   children:
-                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/91c5ff8d587a6ee8d197c8971c8e9fedd0c3ec04/packages/icons-svg/svg/outlined/laptop.svg',
+                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/outlined/laptop.svg',
                 },
                 {
                   name: 'title',
                   className: 'item-title',
                   children: (
                     <span>
-                      <p>Pre-Recorded</p>
+                      <span>
+                        <span>
+                          <p>Pre-Recorded Interviews</p>
+                        </span>
+                      </span>
                     </span>
                   ),
                 },
                 {
                   name: 'content',
-                  className: 'item-content',
+                  className: 'item-content kf6zxf5d6eo-editor_css',
                   children: (
                     <span>
                       <span>
                         <span>
-                          <p>High Volume</p>
+                          <span>
+                            <span>
+                              <span>
+                                <span>
+                                  <span>
+                                    <p>Have candidates record video</p>
+                                    <p>introductions</p>
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                          </span>
                         </span>
                       </span>
                     </span>
@@ -62,6 +85,7 @@ export const Nav31DataSource = {
                 },
               ],
               href: '/one-way-interviews',
+              target: '',
             },
           },
           {
@@ -74,103 +98,111 @@ export const Nav31DataSource = {
                   name: 'image0',
                   className: 'item-image kcz8vvjskoi-editor_css',
                   children:
-                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/91c5ff8d587a6ee8d197c8971c8e9fedd0c3ec04/packages/icons-svg/svg/twotone/video-camera.svg',
+                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/video-camera.svg',
                 },
                 {
                   name: 'title',
                   className: 'item-title',
                   children: (
                     <span>
-                      <p>Live Interviews</p>
+                      <span>
+                        <span>
+                          <p>Live Interviews</p>
+                        </span>
+                      </span>
                     </span>
                   ),
                 },
                 {
                   name: 'content',
-                  className: 'item-content',
+                  className: 'item-content kf6zxy8kbqe-editor_css',
                   children: (
                     <span>
-                      <p>Low Volume</p>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <p>Two way interviews built</p>
+                              <p>for recruiters&nbsp;</p>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
                     </span>
                   ),
                 },
               ],
               href: '/live-interviews',
+              target: '',
+            },
+          },
+          {
+            name: 'sub~kf6wcsf5a6',
+            className: 'item-sub',
+            children: {
+              className: 'item-sub-item kcz8vuom79d-editor_css',
+              children: [
+                {
+                  name: 'image0',
+                  className: 'item-image kcz8vvjskoi-editor_css',
+                  children:
+                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/shop.svg',
+                },
+                {
+                  name: 'title',
+                  className: 'item-title',
+                  children: (
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <span>
+                                  <span>
+                                    <span>
+                                      <p>What is DeepHire?</p>
+                                    </span>
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  ),
+                },
+                {
+                  name: 'content',
+                  className: 'item-content kf6zzz6t2aa-editor_css',
+                  children: (
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <p>Best in class video interview</p>
+                              <p>provider</p>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  ),
+                },
+              ],
+              href: '/what-is-deephire',
+              target: '',
             },
           },
         ],
       },
       {
-        name: 'item2',
+        name: 'item~kf70om9czqi',
         className: 'header3-item',
         children: {
-          href: '/pricing',
-          children: [
-            {
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <p>Solutions</p>
-                    </span>
-                  </span>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-      },
-      {
-        name: 'item1',
-        className: 'header3-item',
-        children: {
-          href: 'https://blog.deephire.com',
-          children: [
-            {
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <p>Pricing</p>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-        subItem: null,
-      },
-      {
-        name: 'item~kekdqa5vrlj',
-        className: 'header3-item',
-        children: {
-          href: 'https://recruiter.deephire.com',
-          children: [
-            {
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <p>Customers</p>
-                    </span>
-                  </span>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-      },
-      {
-        name: 'item~kekdrohjv26',
-        className: 'header3-item',
-        children: {
-          href: 'https://recruiter.deephire.com',
+          href: '#',
           children: [
             {
               children: (
@@ -179,7 +211,9 @@ export const Nav31DataSource = {
                     <span>
                       <span>
                         <span>
-                          <p>Login</p>
+                          <span>
+                            <p>Solutions</p>
+                          </span>
                         </span>
                       </span>
                     </span>
@@ -190,25 +224,234 @@ export const Nav31DataSource = {
             },
           ],
         },
-      },
-      {
-        name: 'item~kd351bwril7',
-        className: 'header3-item',
-        children: {
-          href: 'https://recruiter.deephire.com',
-          children: [
-            {
-              children: (
-                <span>
-                  <span>
-                    <p>Request a Demo</p>
-                  </span>
-                </span>
-              ),
-              name: 'text',
+        subItem: [
+          {
+            name: 'sub1',
+            className: 'item-sub',
+            children: {
+              className: 'item-sub-item',
+              children: [
+                {
+                  name: 'image0',
+                  className: 'item-image kcz8wnt2acf-editor_css',
+                  children:
+                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/outlined/laptop.svg',
+                },
+                {
+                  name: 'title',
+                  className: 'item-title',
+                  children: (
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <p>Pre Hiring Screening</p>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  ),
+                },
+                {
+                  name: 'content',
+                  className: 'item-content kf6zxf5d6eo-editor_css',
+                  children: (
+                    <span>
+                      <span>
+                        <p>Find &amp; hire the best talent</p>
+                        <p>faster</p>
+                      </span>
+                    </span>
+                  ),
+                },
+              ],
+              href: '/pre-screening',
+              target: '',
             },
-          ],
-        },
+          },
+          {
+            name: 'sub~kcz008mmgsc',
+            className: 'item-sub',
+            children: {
+              className: 'item-sub-item kcz8vuom79d-editor_css',
+              children: [
+                {
+                  name: 'image0',
+                  className: 'item-image kcz8vvjskoi-editor_css',
+                  children:
+                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/video-camera.svg',
+                },
+                {
+                  name: 'title',
+                  className: 'item-title',
+                  children: (
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <p>Live Interviewing</p>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  ),
+                },
+                {
+                  name: 'content',
+                  className: 'item-content kf6zxy8kbqe-editor_css',
+                  children: (
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <p>Two way interviews built</p>
+                              <p>for recruiters&nbsp;</p>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  ),
+                },
+              ],
+              href: '/live-interviewing',
+              target: '',
+            },
+          },
+          {
+            name: 'sub~kf6wcsf5a6',
+            className: 'item-sub',
+            children: {
+              className: 'item-sub-item kcz8vuom79d-editor_css',
+              children: [
+                {
+                  name: 'image0',
+                  className: 'item-image kcz8vvjskoi-editor_css',
+                  children:
+                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/outlined/team.svg',
+                },
+                {
+                  name: 'title',
+                  className: 'item-title',
+                  children: (
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <span>
+                                  <span>
+                                    <span>
+                                      <span>
+                                        <p>Collaborative Team Hiring</p>
+                                      </span>
+                                    </span>
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  ),
+                },
+                {
+                  name: 'content',
+                  className: 'item-content kf6zzz6t2aa-editor_css',
+                  children: (
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <p>Share videos of your candidates</p>
+                                <p>with teammates &amp; clients</p>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  ),
+                },
+              ],
+              href: '/team-hiring',
+              target: '',
+            },
+          },
+          {
+            name: 'sub~kf70qzvfct',
+            className: 'item-sub',
+            children: {
+              className: 'item-sub-item kcz8vuom79d-editor_css',
+              children: [
+                {
+                  name: 'image0',
+                  className: 'item-image kcz8vvjskoi-editor_css',
+                  children:
+                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/outlined/share-alt.svg',
+                },
+                {
+                  name: 'title',
+                  className: 'item-title',
+                  children: (
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <span>
+                                  <span>
+                                    <span>
+                                      <span>
+                                        <span>
+                                          <p>Send Out Interviews</p>
+                                        </span>
+                                      </span>
+                                    </span>
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  ),
+                },
+                {
+                  name: 'content',
+                  className: 'item-content kf6zzz6t2aa-editor_css',
+                  children: (
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <span>
+                                  <p>See what your clients ask</p>
+                                  <p>in their interviews</p>
+                                </span>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  ),
+                },
+              ],
+              href: '/send-outs',
+              target: '',
+            },
+          },
+        ],
       },
       {
         name: 'item~keu6tmfv74a',
@@ -220,7 +463,11 @@ export const Nav31DataSource = {
               children: (
                 <span>
                   <span>
-                    <p>Resources</p>
+                    <span>
+                      <span>
+                        <p>Resources</p>
+                      </span>
+                    </span>
                   </span>
                 </span>
               ),
@@ -305,7 +552,86 @@ export const Nav31DataSource = {
               target: '_blank',
             },
           },
+          {
+            name: 'sub~kf6wcsf5a6',
+            className: 'item-sub',
+            children: {
+              className: 'item-sub-item kcz8vuom79d-editor_css',
+              children: [
+                {
+                  name: 'image0',
+                  className: 'item-image kcz8vvjskoi-editor_css',
+                  children:
+                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/video-camera.svg',
+                },
+                {
+                  name: 'title',
+                  className: 'item-title',
+                  children: (
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <span>
+                                  <span>
+                                    <p>
+                                      DeepHire <br />vs Zoom
+                                    </p>
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  ),
+                },
+                {
+                  name: 'content',
+                  className: 'item-content',
+                  children: (
+                    <span>
+                      <span>
+                        <span>
+                          <p>Comparison</p>
+                        </span>
+                      </span>
+                    </span>
+                  ),
+                },
+              ],
+              href: '/zoom',
+              target: '_blank',
+            },
+          },
         ],
+      },
+      {
+        name: 'item1',
+        className: 'header3-item',
+        children: {
+          href: 'https://blog.deephire.com',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <p>Pricing</p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+        subItem: null,
       },
     ],
   },
@@ -384,13 +710,15 @@ export const Banner50DataSource = {
                   <span>
                     <span>
                       <span>
-                        <p>Qualify Candidates Faster</p>
-                        <p>
-                          <span>Increase Revenue&nbsp;</span>
-                        </p>
-                        <p>
-                          <span>Reduce Time to Hire</span>
-                        </p>
+                        <span>
+                          <p>Qualify Candidates Faster</p>
+                          <p>
+                            <span>Win More Retained Roles</span>
+                          </p>
+                          <p>
+                            <span>Reduce Time to Hire</span>
+                          </p>
+                        </span>
                       </span>
                     </span>
                   </span>
@@ -404,7 +732,7 @@ export const Banner50DataSource = {
         name: 'button',
         className: 'banner5-button-wrapper',
         children: {
-          href: 'https://recruiter.deephire.com/user/login?signupEmail=%20',
+          href: '/demo',
           className: 'banner5-button kd5z8m3n24l-editor_css',
           type: 'primary',
           children: (
@@ -448,7 +776,8 @@ export const Feature40DataSource = {
     ],
   },
   img: {
-    children: 'https://zos.alipayobjects.com/rmsportal/VHGOVdYyBwuyqCx.png',
+    children:
+      'https://deephire.s3.amazonaws.com/websiteAssets/undraw_informed_decision_p2lh.svg',
     className: 'content6-img',
     xs: 24,
     md: 14,
@@ -548,8 +877,10 @@ export const Feature40DataSource = {
     ],
   },
 };
-export const Content121DataSource = {
-  wrapper: { className: 'home-page-wrapper content12-wrapper' },
+export const Content122DataSource = {
+  wrapper: {
+    className: 'home-page-wrapper content12-wrapper kf5okpqplr-editor_css',
+  },
   page: { className: 'home-page content12' },
   OverPack: { playScale: 0.3, className: '' },
   titleWrapper: {
@@ -584,7 +915,7 @@ export const Content121DataSource = {
           wrapper: { className: 'block-content' },
           img: {
             children:
-              'https://gw.alipayobjects.com/zos/rmsportal/TFicUVisNHTOEeMYXuQF.svg',
+              'https://deephire.s3.amazonaws.com/websiteAssets/customerLogos/1.png',
           },
         },
       },
@@ -597,7 +928,7 @@ export const Content121DataSource = {
           wrapper: { className: 'block-content' },
           img: {
             children:
-              'https://gw.alipayobjects.com/zos/rmsportal/hkLGkrlCEkGZeMQlnEkD.svg',
+              'https://deephire.s3.amazonaws.com/websiteAssets/customerLogos/2.png',
           },
         },
       },
@@ -610,7 +941,7 @@ export const Content121DataSource = {
           wrapper: { className: 'block-content' },
           img: {
             children:
-              'https://gw.alipayobjects.com/zos/rmsportal/bqyPRSZmhvrsfJrBvASi.svg',
+              'https://deephire.s3.amazonaws.com/websiteAssets/customerLogos/3.png',
           },
         },
       },
@@ -623,7 +954,7 @@ export const Content121DataSource = {
           wrapper: { className: 'block-content' },
           img: {
             children:
-              'https://gw.alipayobjects.com/zos/rmsportal/UcsyszzOabdCYDkoPPnM.svg',
+              'https://deephire.s3.amazonaws.com/websiteAssets/customerLogos/4.png',
           },
         },
       },
@@ -636,7 +967,7 @@ export const Content121DataSource = {
           wrapper: { className: 'block-content' },
           img: {
             children:
-              'https://gw.alipayobjects.com/zos/rmsportal/kRBeaICGexAmVjqBEqgw.svg',
+              'https://deephire.s3.amazonaws.com/websiteAssets/customerLogos/5.png',
           },
         },
       },
@@ -649,7 +980,120 @@ export const Content121DataSource = {
           wrapper: { className: 'block-content' },
           img: {
             children:
-              'https://gw.alipayobjects.com/zos/rmsportal/ftBIiyJcCHpHEioRvPsV.svg',
+              'https://deephire.s3.amazonaws.com/websiteAssets/customerLogos/6.png',
+          },
+        },
+      },
+    ],
+  },
+};
+export const Content50DataSource = {
+  wrapper: {
+    className: 'home-page-wrapper content5-wrapper kf6zqvhrl0j-editor_css',
+  },
+  page: { className: 'home-page content5 kf6v0pzjq9r-editor_css' },
+  OverPack: { playScale: 0.3, className: '' },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      {
+        name: 'title',
+        children: (
+          <span>
+            <p>Resources to Support You Along the Way</p>
+          </span>
+        ),
+        className: 'title-h1',
+      },
+    ],
+  },
+  block: {
+    className: 'content5-img-wrapper',
+    gutter: 16,
+    children: [
+      {
+        name: 'block2',
+        className: 'block',
+        md: 12,
+        xs: 24,
+        children: {
+          wrapper: {
+            className: 'content5-block-content kf5qf8iei1-editor_css',
+          },
+          img: {
+            children:
+              'https://www.hubspot.com/hubfs/Blog_Move_On_Up/Videointerview.png',
+            className: 'kf37jxidshs-editor_css',
+          },
+          content: {
+            children: (
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <p>
+                        What are: <a href="/live-interviews">Live Interviews</a>
+                      </p>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            ),
+          },
+        },
+      },
+      {
+        name: 'block3',
+        className: 'block',
+        md: 12,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://www.springboard.com/blog/wp-content/uploads/2020/04/SB-Blog-Tipsvideointerview-A-final-768x314.png',
+            className: 'kf5q9not3x-editor_css',
+          },
+          content: {
+            children: (
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <p>
+                        What are:{' '}
+                        <a href="/pre-recorded">Pre-Recorded Interviews</a>
+                      </p>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            ),
+          },
+        },
+      },
+      {
+        name: 'block5',
+        className: 'block kf6vx0s0zi-editor_css',
+        md: 24,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://deephire.s3.amazonaws.com/websiteAssets/Stop+using+Zoom+for+Video+Interviews.+(4).png',
+            className: 'kf5qiyz2uw-editor_css',
+          },
+          content: {
+            children: (
+              <span>
+                <span>
+                  <p>
+                    Comparison: <a href="/zoom">Why DeepHire vs Zoom? </a>
+                  </p>
+                </span>
+              </span>
+            ),
           },
         },
       },
@@ -780,118 +1224,9 @@ export const Feature60DataSource = {
     ],
   },
 };
-export const Content50DataSource = {
-  wrapper: { className: 'home-page-wrapper content5-wrapper' },
-  page: { className: 'home-page content5' },
-  OverPack: { playScale: 0.3, className: '' },
-  titleWrapper: {
-    className: 'title-wrapper',
-    children: [
-      {
-        name: 'title',
-        children: (
-          <span>
-            <p>Resources to Support You Along the Way</p>
-          </span>
-        ),
-        className: 'title-h1',
-      },
-    ],
-  },
-  block: {
-    className: 'content5-img-wrapper',
-    gutter: 16,
-    children: [
-      {
-        name: 'block2',
-        className: 'block',
-        md: 12,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
-          },
-          content: {
-            children: (
-              <span>
-                <span>
-                  <p>ROI Calculator</p>
-                </span>
-              </span>
-            ),
-          },
-        },
-      },
-      {
-        name: 'block3',
-        className: 'block',
-        md: 12,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
-          },
-          content: {
-            children: (
-              <span>
-                <span>
-                  <p>Comparison: Why DeepHire vs Zoom?&nbsp;</p>
-                </span>
-              </span>
-            ),
-          },
-        },
-      },
-      {
-        name: 'block5',
-        className: 'block',
-        md: 24,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
-          },
-          content: {
-            children: (
-              <span>
-                <p>How to Create an MPC Process that Wins New Clients</p>
-              </span>
-            ),
-          },
-        },
-      },
-      {
-        name: 'block6',
-        className: 'block',
-        md: 24,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
-          },
-          content: {
-            children: (
-              <span>
-                <p>What is a Video Interviewing Platform?&nbsp;</p>
-              </span>
-            ),
-          },
-        },
-      },
-    ],
-  },
-};
 export const Content110DataSource = {
   OverPack: {
-    className: 'home-page-wrapper content11-wrapper',
+    className: 'home-page-wrapper content11-wrapper kf6u7dxr6de-editor_css',
     playScale: 0.3,
   },
   titleWrapper: {
@@ -907,7 +1242,9 @@ export const Content110DataSource = {
         name: 'title',
         children: (
           <span>
-            <p>Ready to Become More Effective?&nbsp;</p>
+            <span>
+              <p>Ready to Become More Effective?&nbsp;</p>
+            </span>
           </span>
         ),
         className: 'title-h1',
@@ -931,7 +1268,7 @@ export const Content110DataSource = {
     children: {
       a: {
         className: 'button',
-        href: '#',
+        href: '/demo',
         children: (
           <span>
             <span>
@@ -985,51 +1322,211 @@ export const Footer10DataSource = {
         title: {
           children: (
             <span>
-              <p>Company</p>
+              <span>
+                <p>Product</p>
+              </span>
             </span>
           ),
         },
         childWrapper: {
           children: [
             {
-              name: 'link2',
-              href: '/live-interviews',
+              name: 'content~kf6vuhj0rpn',
+              className: 'kf6vuuqtpk-editor_css',
               children: (
                 <span>
                   <span>
-                    <p>Live Interviews</p>
+                    <p>
+                      <a href="/demo">Request Demo</a>
+                    </p>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'link2',
+              href: '/what-is-deephire',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>What is DeepHire?&nbsp;</p>
+                    </span>
                   </span>
                 </span>
               ),
             },
             {
               name: 'link0',
-              href: '/zoom',
+              href: '/pricing',
               children: (
                 <span>
-                  <p>DeepHire vs Zoom</p>
+                  <span>
+                    <p>Pricing</p>
+                  </span>
+                </span>
+              ),
+              className: 'kf6vq0gfksm-editor_css',
+            },
+          ],
+        },
+      },
+      {
+        name: 'block~kf38bitbqdj',
+        xs: 24,
+        md: 6,
+        className: 'block',
+        title: {
+          children: (
+            <span>
+              <span>
+                <span>
+                  <p>Solutions</p>
+                </span>
+              </span>
+            </span>
+          ),
+        },
+        childWrapper: {
+          children: [
+            {
+              name: 'content~kf38mkg8pam',
+              className: 'kf6vie82ghl-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>
+                        <a href="/pre-screening">Pre Hiring Screening</a>
+                      </p>
+                    </span>
+                  </span>
                 </span>
               ),
             },
             {
-              name: 'link1',
-              href: 'https://blog.deephire.com',
+              name: 'content~kf38n0zkztd',
+              className: 'kf5pjulvwgi-editor_css',
               children: (
                 <span>
-                  <p>Blog</p>
+                  <span>
+                    <span>
+                      <p>
+                        <a href="/live-interviewing">Live Interviewing</a>
+                      </p>
+                    </span>
+                  </span>
                 </span>
               ),
-              target: '_blank',
             },
             {
-              name: 'link3',
-              href: 'https://anchor.fm/deephire-podcast',
+              name: 'content~kf38n1vkj2m',
+              className: 'kf6vj360jdd-editor_css',
               children: (
                 <span>
-                  <p>Podcast</p>
+                  <span>
+                    <p>
+                      <a href="/team-hiring">Collaborative Team Hiring</a>
+                    </p>
+                  </span>
                 </span>
               ),
-              target: '_blank',
+            },
+            {
+              name: 'content~kf38n2uj5g',
+              className: 'kf6vj4q3m3-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <p>
+                      <a href="/send-outs">Send Out Interviews</a>
+                    </p>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block~kf38dxerea6',
+        xs: 24,
+        md: 6,
+        className: 'block',
+        title: {
+          children: (
+            <span>
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <p>Contact</p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </span>
+          ),
+          className: 'kf4eusqapam-editor_css',
+        },
+        childWrapper: {
+          children: [
+            {
+              name: 'content~kf38ev4tui',
+              className: '',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>526 S. Main Street Suite 511</p>
+                      <p>Akron, Ohio 44311</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content~kf38gxoxya',
+              className: '',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>
+                            <br />
+                          </p>
+                          <p>
+                            <a href="tel:13309318770">(330) 931 8770</a>
+                          </p>
+                          <p>
+                            <br />
+                          </p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'button~kf38hft3fk',
+              className: '',
+              children: {
+                children: (
+                  <span>
+                    <span>
+                      <p>Sign In</p>
+                    </span>
+                  </span>
+                ),
+                href: 'https://recruiter.deephire.com',
+                type: 'default',
+                className: 'ant-btn-default kf6ztalhf8c-editor_css',
+              },
             },
           ],
         },
@@ -1042,43 +1539,8 @@ export const Footer10DataSource = {
         title: {
           children: (
             <span>
-              <p>Support</p>
-            </span>
-          ),
-        },
-        childWrapper: {
-          children: [
-            {
-              href: 'https://blog.deephire.com/privacy/',
-              name: 'link0',
-              children: (
-                <span>
-                  <p>Privacy Policy</p>
-                </span>
-              ),
-            },
-            {
-              href: 'https://help.deephire.com',
-              name: 'link1',
-              children: (
-                <span>
-                  <p>Support Centre</p>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        name: 'block3',
-        xs: 24,
-        md: 6,
-        className: 'block',
-        title: {
-          children: (
-            <span>
               <span>
-                <p>Follow Us</p>
+                <p>Resources</p>
               </span>
             </span>
           ),
@@ -1086,24 +1548,43 @@ export const Footer10DataSource = {
         childWrapper: {
           children: [
             {
-              href: 'https://www.linkedin.com/company/deephire',
-              name: 'link0',
+              name: 'content~kf38j0xkr3h',
+              className: 'kf6vjz8s93-editor_css',
               children: (
                 <span>
-                  <p>Linkedin</p>
+                  <span>
+                    <p>
+                      <a href="https://blog.deephire.com">Blog</a>
+                    </p>
+                  </span>
                 </span>
               ),
-              target: '_blank',
             },
             {
-              href: 'https://www.facebook.com/deephire.io',
-              name: 'link1',
+              name: 'content~kf38jut9gwg',
+              className: 'kf6vmdoat6s-editor_css',
               children: (
                 <span>
-                  <p>Facebook</p>
+                  <span>
+                    <p>
+                      <a href="/zoom">Comparison: Zoom vs DeepHire</a>
+                    </p>
+                  </span>
                 </span>
               ),
-              target: '_blank',
+            },
+            {
+              name: 'content~kf38jwvv5g6',
+              className: 'kf6vmft01i-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <p>
+                      <a href="https://help.deephire.com">Support Centre</a>
+                    </p>
+                  </span>
+                </span>
+              ),
             },
           ],
         },

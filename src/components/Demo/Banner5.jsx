@@ -36,8 +36,8 @@ class Banner5 extends React.PureComponent {
             {dataSource.childWrapper.children.map(getChildrenToRender)}
           </QueueAnim>
           <TweenOne animation={animType.one} key="title" {...dataSource.image}>
-            <DemoForm/>
             {/* <img src={dataSource.image.children} width="100%" alt="img" /> */}
+            <DemoForm/>
           </TweenOne>
         </div>
       </div>

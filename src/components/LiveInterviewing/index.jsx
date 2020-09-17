@@ -7,12 +7,14 @@ import Banner5 from './Banner5';
 import Content0 from './Content0';
 import Content1 from './Content1';
 import Content3 from './Content3';
+import Content11 from './Content11';
 
 import {
   Banner50DataSource,
   Content00DataSource,
   Content10DataSource,
   Content30DataSource,
+  Content110DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
 
@@ -74,6 +76,12 @@ export default class Home extends React.Component {
         id="Content3_0"
         key="Content3_0"
         dataSource={Content30DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Content11
+        id="Content11_0"
+        key="Content11_0"
+        dataSource={Content110DataSource}
         isMobile={this.state.isMobile}
       />,
     ];

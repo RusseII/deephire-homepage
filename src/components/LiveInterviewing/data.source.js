@@ -48,7 +48,7 @@ export const Banner50DataSource = {
         name: 'button',
         className: 'banner5-button-wrapper',
         children: {
-          href: '#',
+          href: '/demo',
           className: 'banner5-button',
           type: 'primary',
           children: (
@@ -490,5 +490,57 @@ export const Content30DataSource = {
         },
       },
     ],
+  },
+};
+export const Content110DataSource = {
+  OverPack: {
+    className: 'home-page-wrapper content11-wrapper',
+    playScale: 0.3,
+  },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      {
+        name: 'image',
+        children:
+          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
+        className: 'title-image',
+      },
+      {
+        name: 'title',
+        children: (
+          <span>
+            <p>Ready to improve your recruiting process?</p>
+          </span>
+        ),
+        className: 'title-h1',
+      },
+      {
+        name: 'content',
+        children: (
+          <span>
+            <p>
+              See how live interviews built for recruiters can make your life
+              easier.
+            </p>
+          </span>
+        ),
+        className: 'title-content',
+      },
+    ],
+  },
+  button: {
+    className: '',
+    children: {
+      a: {
+        className: 'button',
+        href: '/demo',
+        children: (
+          <span>
+            <p>GET DEMO</p>
+          </span>
+        ),
+      },
+    },
   },
 };
