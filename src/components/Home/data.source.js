@@ -613,7 +613,7 @@ export const Nav31DataSource = {
         name: 'item1',
         className: 'header3-item',
         children: {
-          href: 'https://blog.deephire.com',
+          href: '/pricing',
           children: [
             {
               children: (
@@ -622,6 +622,30 @@ export const Nav31DataSource = {
                     <span>
                       <span>
                         <p>Pricing</p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+        subItem: null,
+      },
+      {
+        name: 'login-item',
+        className: 'header3-item',
+        children: {
+          href: 'https://recruiter.deephire.com/user/login?signupEmail=%20',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <p>Log In</p>
                       </span>
                     </span>
                   </span>
@@ -1062,7 +1086,7 @@ export const Content50DataSource = {
                     <span>
                       <p>
                         What are:{' '}
-                        <a href="/pre-recorded">Pre-Recorded Interviews</a>
+                        <a href="/one-way-interviews">Pre-Recorded Interviews</a>
                       </p>
                     </span>
                   </span>

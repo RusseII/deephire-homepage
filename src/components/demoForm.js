@@ -5,7 +5,7 @@ import { Form, Input, Button, Card, InputNumber, Result } from "antd";
 //   labelCol: { span: 6 },
 //   wrapperCol: { span: 18 }
 // };
- const Demo = () => {
+ const Demo = ({submitText}) => {
   const [submitted, setSubmitted] = useState(false);
   const onFinish = (values) => {
     setSubmitted(values);
@@ -105,7 +105,7 @@ import { Form, Input, Button, Card, InputNumber, Result } from "antd";
 
           <Form.Item style={{ textAlign: "center" }}>
             <Button type="primary" htmlType="submit">
-              Request a Demo
+            {submitText ? submitText: 'Request a Demo'}
             </Button>
           </Form.Item>
         </Form>
