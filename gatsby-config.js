@@ -65,6 +65,22 @@ module.exports = {
           pixelId: '393993268193372',
         },
       },
+      {
+        resolve: `gatsby-plugin-leadfeeder`,
+        options: {
+          key: "lftracker_v1_kn9Eq4RmjXJ7RlvP",
+        },
+      },
+      {
+        resolve: `gatsby-plugin-linkedin-insight`,
+        options: {
+          partnerId: `2434578`,
+    
+          // Include LinkedIn Insight in development.
+          // Defaults to false meaning LinkedIn Insight will only be loaded in production.
+          includeInDevelopment: false
+        }
+      },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
