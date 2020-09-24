@@ -8,7 +8,7 @@ import PreRecorded from "../components/PreRecorded/index.jsx"
 
 import ClientOnly from '../components/clientOnly'
 const IndexPage = () => (
-    <> <SEO title="Pre-Recorded Interviews"/>
+    <> <SEO title="Pre-Recorded Interviews" description="Pre-Recoded Interviews - Enhance your hiring process with video introductions."/>
     <ClientOnly>
     <Layout><PreRecorded/></Layout>
     </ClientOnly>

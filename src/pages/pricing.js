@@ -9,7 +9,7 @@ import Page from "../components/Pricing/index.jsx"
 import ClientOnly from '../components/clientOnly'
 const IndexPage = () => (
 
-    <> <SEO title="Pricing"/>
+    <> <SEO title="Pricing" description="Flexible, simple pricing." />
     <ClientOnly>
     <Layout><Page/></Layout>
     </ClientOnly>

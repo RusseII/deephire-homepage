@@ -2,6 +2,7 @@ import React from 'react';
 import TweenOne from 'rc-tween-one';
 import { Menu } from 'antd';
 import { getChildrenToRender } from './utils';
+import {Button} from 'antd'
 
 const { Item, SubMenu } = Menu;
 
@@ -56,6 +57,7 @@ class Header3 extends React.Component {
                 <Item key={$item.name || ii.toString()} {...$item}>
                   {child}
                 </Item>
+                
               );
             })}
           </SubMenu>
@@ -85,7 +87,9 @@ class Header3 extends React.Component {
             animation={{ x: -30, type: 'from', ease: 'easeOutQuad' }}
             {...dataSource.logo}
           >
+            <a href='/'>
             <img width="100%" src={dataSource.logo.children} alt="img" />
+            </a>
           </TweenOne>
           {isMobile && (
             <div
