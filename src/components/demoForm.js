@@ -20,9 +20,9 @@ import { Form, Input, Button, Card, InputNumber, Result } from "antd";
   };
 
   return (
-    <Card style={{ width: 450 }}>
+    <Card style={{ maxWidth: 450 }}>
       {submitted ? (
-        <SuccessResult firstName={submitted.firstName} />
+        <SuccessResult firstName={submitted.fullName.split(' ')[0]} />
       ) : (
         <Form
           layout="vertical"
@@ -36,8 +36,8 @@ import { Form, Input, Button, Card, InputNumber, Result } from "antd";
           onFinishFailed={onFinishFailed}
         >
           <Form.Item
-            label="First Name"
-            name="firstName"
+            label="Full Name"
+            name="fullName"
             rules={[
               {
                 required: true,
@@ -48,7 +48,7 @@ import { Form, Input, Button, Card, InputNumber, Result } from "antd";
             <Input />
           </Form.Item>
 
-          <Form.Item
+          {/* <Form.Item
             label="Last Name"
             name="lastName"
             rules={[
@@ -59,8 +59,8 @@ import { Form, Input, Button, Card, InputNumber, Result } from "antd";
             ]}
           >
             <Input />
-          </Form.Item>
-          <Form.Item
+          </Form.Item> */}
+          {/* <Form.Item
             label="Job Title"
             name="jobTitle"
             rules={[
@@ -71,7 +71,7 @@ import { Form, Input, Button, Card, InputNumber, Result } from "antd";
             ]}
           >
             <Input />
-          </Form.Item>
+          </Form.Item> */}
 
           <Form.Item
             label="Work Email"
