@@ -9,12 +9,12 @@ class Content5 extends React.PureComponent {
     data.map((item) => {
       return (
         <Col key={item.name} {...item}>
-          <div {...item.children.wrapper}>
+          <a {...item.children.wrapper}>
             <span {...item.children.img}>
               <img src={item.children.img.children} height="100%" alt="img" />
             </span>
             <p {...item.children.content}>{item.children.content.children}</p>
-          </div>
+          </a>
         </Col>
       );
     });

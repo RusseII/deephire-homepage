@@ -63,6 +63,7 @@ class Content7 extends React.Component {
               type={queue}
               ease="easeOutQuad"
               {...dataSource.block}
+              style={{listStyleType: 'none'}}
             >
               {ulChildren}
             </QueueAnim>

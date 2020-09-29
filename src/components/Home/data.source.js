@@ -122,8 +122,10 @@ export const Nav31DataSource = {
                         <span>
                           <span>
                             <span>
-                              <p>Two way interviews built</p>
-                              <p>for recruiters&nbsp;</p>
+                              <span>
+                                <p>Two way interviews built</p>
+                                <p>for recruiters&nbsp;</p>
+                              </span>
                             </span>
                           </span>
                         </span>
@@ -604,7 +606,7 @@ export const Nav31DataSource = {
                 },
               ],
               href: '/zoom',
-              target: '_blank',
+              target: '',
             },
           },
         ],
@@ -634,7 +636,33 @@ export const Nav31DataSource = {
         subItem: null,
       },
       {
-        name: 'login-item',
+        name: 'item~kfoamxr1et',
+        className: 'header3-item',
+        children: {
+          href: 'https://recruiter.deephire.com',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>Login</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+        subItem: null,
+      },
+      {
+        name: 'item~kfoamwdf9io',
         className: 'header3-item',
         children: {
           href: 'https://recruiter.deephire.com/user/login?signupEmail=%20',
@@ -645,7 +673,13 @@ export const Nav31DataSource = {
                   <span>
                     <span>
                       <span>
-                        <p>Log In</p>
+                        <span>
+                          <span>
+                            <span>
+                              <p>Start Free</p>
+                            </span>
+                          </span>
+                        </span>
                       </span>
                     </span>
                   </span>
@@ -724,8 +758,13 @@ export const Banner50DataSource = {
         ),
       },
       {
+        name: 'image~kfoa5lhe59',
+        className: 'kfoa5ojswqb-editor_css',
+        children: 'https://deephire.s3.amazonaws.com/websiteAssets/checks2.png',
+      },
+      {
         name: 'content',
-        className: 'banner5-content',
+        className: 'banner5-content kfoa66zssyk-editor_css',
         children: (
           <span>
             <span>
@@ -756,16 +795,18 @@ export const Banner50DataSource = {
         name: 'button',
         className: 'banner5-button-wrapper',
         children: {
-          href: '/demo',
+          href: 'https://recruiter.deephire.com/user/login?signupEmail=%20',
           className: 'banner5-button kd5z8m3n24l-editor_css',
           type: 'primary',
           children: (
             <span>
               <span>
                 <span>
-                  <font>
-                    <font>GET DEMO</font>
-                  </font>
+                  <span>
+                    <font>
+                      <font>Start Free Now</font>
+                    </font>
+                  </span>
                 </span>
               </span>
             </span>
@@ -1043,6 +1084,7 @@ export const Content50DataSource = {
         children: {
           wrapper: {
             className: 'content5-block-content kf5qf8iei1-editor_css',
+            href: '/live-interviews',
           },
           img: {
             children:
@@ -1055,9 +1097,9 @@ export const Content50DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>
-                        What are: <a href="/live-interviews">Live Interviews</a>
-                      </p>
+                      <span>
+                        <p>What are: Live Interviews</p>
+                      </span>
                     </span>
                   </span>
                 </span>
@@ -1072,7 +1114,10 @@ export const Content50DataSource = {
         md: 12,
         xs: 24,
         children: {
-          wrapper: { className: 'content5-block-content' },
+          wrapper: {
+            className: 'content5-block-content',
+            href: '/one-way-interviews',
+          },
           img: {
             children:
               'https://www.springboard.com/blog/wp-content/uploads/2020/04/SB-Blog-Tipsvideointerview-A-final-768x314.png',
@@ -1084,10 +1129,12 @@ export const Content50DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>
-                        What are:{' '}
-                        <a href="/one-way-interviews">Pre-Recorded Interviews</a>
-                      </p>
+                      <span>
+                        <p>
+                          What are:&nbsp;<a href="/one-way-interviews">P</a>re-Recorded
+                          Interviews<br />
+                        </p>
+                      </span>
                     </span>
                   </span>
                 </span>
@@ -1102,7 +1149,7 @@ export const Content50DataSource = {
         md: 24,
         xs: 24,
         children: {
-          wrapper: { className: 'content5-block-content' },
+          wrapper: { className: 'content5-block-content', href: '/zoom' },
           img: {
             children:
               'https://deephire.s3.amazonaws.com/websiteAssets/Stop+using+Zoom+for+Video+Interviews.+(4).png',
@@ -1112,9 +1159,11 @@ export const Content50DataSource = {
             children: (
               <span>
                 <span>
-                  <p>
-                    Comparison: <a href="/zoom">Why DeepHire vs Zoom? </a>
-                  </p>
+                  <span>
+                    <span>
+                      <p>Comparison: Why DeepHire vs Zoom?</p>
+                    </span>
+                  </span>
                 </span>
               </span>
             ),
@@ -1277,10 +1326,12 @@ export const Content110DataSource = {
         name: 'content',
         children: (
           <span>
-            <p>
-              DeepHire is more than just software - with our Video Interviewing
-              platform, you get a playbook for success.&nbsp;
-            </p>
+            <span>
+              <p>
+                DeepHire is more than just software - with our Video
+                Interviewing platform, you get a playbook for success.&nbsp;
+              </p>
+            </span>
           </span>
         ),
         className: 'title-content',
@@ -1292,11 +1343,11 @@ export const Content110DataSource = {
     children: {
       a: {
         className: 'button',
-        href: '/demo',
+        href: 'https://recruiter.deephire.com/user/login?signupEmail=%20',
         children: (
           <span>
             <span>
-              <p>GET DEMO</p>
+              <p>Get Started</p>
             </span>
           </span>
         ),
