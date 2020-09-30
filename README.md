@@ -18,3 +18,10 @@ cd deephire-homepage
 yarn
 yarn start
 ```
+###
+How to make changes 
+Use https://landing.ant.design/edit/ to edit the pages on antd landing
+
+
+Here are the doc with all of our pages - https://docs.google.com/document/u/2/d/1aAuHlzA1j34vK5aDY1dnzZPc2CohUSGd-HmAcey1teE/edit
+
