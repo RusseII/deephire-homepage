@@ -25,3 +25,5 @@ Use https://landing.ant.design/edit/ to edit the pages on antd landing
 
 Here are the doc with all of our pages - https://docs.google.com/document/u/2/d/1aAuHlzA1j34vK5aDY1dnzZPc2CohUSGd-HmAcey1teE/edit
 
+# Guide - From Editor to Prod 
+https://www.loom.com/share/9817fa54ba94470d9df3a0d587e4d391
