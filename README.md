@@ -12,5 +12,9 @@ https://www.loom.com/share/684ae99235f940e8b5d676d8a9872f5d @steven
 
 ### Run project
 
-`yarn`
-`yarn start`
+```
+git clone https://github.com/RusseII/deephire-homepage.git
+cd deephire-homepage
+yarn
+yarn start
+```
