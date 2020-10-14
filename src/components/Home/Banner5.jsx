@@ -101,9 +101,21 @@ class Banner5 extends React.Component {
                   <PlatformVideo />
                 </div>
                 <Divider>Request Free Trial</Divider>
-
+                <Row>
+                <Col span={10}>
+                <ul>
+                  <li>No Obligations </li>
+                  <li>No Credit Card Needed </li>
+                  <li>Test DeepHire Quickly </li>
+                </ul>
+                <p> </p>
+                <p>  Request a Free Trial to try DeepHire quickly, with no credit cards required. Our Customer Success team is here to make sure you understand the tool quickly and easily. </p>
+                </Col>
+                <Col span={10}>
                 <DemoForm emailAddress={this.state.emailAddress} />
-              </Col>
+                </Col>
+                </Row>
+                </Col>
             </Row>
           </Modal>
           <QueueAnim
