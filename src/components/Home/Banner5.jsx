@@ -68,9 +68,6 @@ class Banner5 extends React.Component {
     return (
       
       <div {...tagProps} {...dataSource.wrapper}>
-        
-        <div {...dataSource.page}>
-          
         <div class="bg_graphic">
         <video
               loop="true"
@@ -83,7 +80,10 @@ class Banner5 extends React.Component {
                 type="video/mp4"
               />
             </video>
-</div>
+        </div>
+        <div {...dataSource.page}>
+          
+        
 
           <Modal
             title="Request Free Trial"
@@ -145,7 +145,7 @@ class Banner5 extends React.Component {
               >
                 <Search
                   placeholder="Enter your email address"
-                  enterButton="Get Started"
+                  enterButton="Watch Demo"
                   size="large"
                   onSearch={() => this.formRef.current.submit()}
                 />

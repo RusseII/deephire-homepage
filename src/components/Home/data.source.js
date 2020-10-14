@@ -714,7 +714,7 @@ export const Banner50DataSource = {
                     <span>
                       <span>
                         <span>
-                          <p>Best Video Interview Software</p>
+                          <p>Best Video Interviewing Software</p>
                         </span>
                       </span>
                     </span>
