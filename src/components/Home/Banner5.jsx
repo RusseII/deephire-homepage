@@ -76,7 +76,8 @@ class Banner5 extends React.Component {
               muted
             >
               <source
-                src="	https://deephire.s3.amazonaws.com/websiteAssets/finalvid1.mp4"
+                // src="	https://deephire.s3.amazonaws.com/websiteAssets/finalvid1.mp4"
+                src="https://deephire.s3.amazonaws.com/websiteAssets/finalcut-2.mp4"
                 type="video/mp4"
               />
             </video>

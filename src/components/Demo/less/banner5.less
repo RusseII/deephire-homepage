@@ -1,16 +1,28 @@
 @banner5: banner5;
 
 .video { max-width: 137em !important; min-width: 50% !important;}
-.bg_graphic .video{
-  position: absolute;
-  overflow: hidden;
+.bg_graphic .video {
+  // position: absolute !important;
+  // overflow: hidden !important;
   // opacity: .25;
   // max-width: 100em;
-  margin: 0 auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  // margin: 0 auto !important;
+  // top: 0 !important;
+  // left: 0 !important;
+  // right: 0 !important;
+  // bottom: 0 !important;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100em;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-size: cover;
+
+
 }
 
 .@{banner5} {
