@@ -67,7 +67,7 @@ class Banner5 extends React.Component {
 
     return (
       
-      <div {...tagProps} {...dataSource.wrapper}>
+      <div {...tagProps} {...dataSource.wrapper} >
         <div class="bg_graphic">
         <video
               loop="true"
