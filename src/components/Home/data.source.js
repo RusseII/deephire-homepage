@@ -1,4 +1,6 @@
 import React from 'react';
+import { Modal, Button } from 'antd';
+
 export const Nav31DataSource = {
   wrapper: { className: 'header3 home-page-wrapper' },
   page: { className: 'home-page' },
@@ -712,7 +714,7 @@ export const Banner50DataSource = {
                     <span>
                       <span>
                         <span>
-                          <p>Best Video Interview Software</p>
+                          <p>Best Video Interviewing Software</p>
                         </span>
                       </span>
                     </span>
@@ -791,28 +793,29 @@ export const Banner50DataSource = {
           </span>
         ),
       },
-      {
-        name: 'button',
-        className: 'banner5-button-wrapper',
-        children: {
-          href: 'https://recruiter.deephire.com/user/login?signupEmail=%20',
-          className: 'banner5-button kd5z8m3n24l-editor_css',
-          type: 'primary',
-          children: (
-            <span>
-              <span>
-                <span>
-                  <span>
-                    <font>
-                      <font>Start Free Now</font>
-                    </font>
-                  </span>
-                </span>
-              </span>
-            </span>
-          ),
-        },
-      },
+      // {
+      //   name: 'button',
+      //   className: 'banner5-button-wrapper',
+      //   children: {
+      //     onClick: () => alert("hi"),
+      //     // href: 'https://recruiter.deephire.com/user/login?signupEmail=%20',
+      //     className: 'banner5-button kd5z8m3n24l-editor_css',
+      //     type: 'primary',
+      //     children: (
+      //       <span>
+      //         <span>
+      //           <span>
+      //             <span>
+      //               <font>
+      //                 <font>Start Free Now</font>
+      //               </font>
+      //             </span>
+      //           </span>
+      //         </span>
+      //       </span>
+      //     ),
+      //   },
+      // },
     ],
   },
   image: {
