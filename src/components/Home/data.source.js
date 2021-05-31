@@ -817,7 +817,7 @@ export const Banner50DataSource = {
   },
   image: {
     className: 'banner5-image kcxwzhfpex-editor_css',
-    children: 'https://deephire.s3.amazonaws.com/misc/russell-homepage.png',
+    children: 'https://deephire.s3.amazonaws.com/image.png',
   },
 };
 export const Feature40DataSource = {
