@@ -778,7 +778,7 @@ export const Banner50DataSource = {
                         <span>
                           <p>Qualify Candidates Faster</p>
                           <p>
-                            <span>Win More Retained Roles</span>
+                            <span>Provide a Great Candidate Experience</span>
                           </p>
                           <p>
                             <span>Reduce Time to Hire</span>
