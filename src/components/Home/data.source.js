@@ -88,56 +88,56 @@ export const Nav31DataSource = {
               target: "",
             },
           },
-          {
-            name: "sub~kcz008mmgsc",
-            className: "item-sub",
-            children: {
-              className: "item-sub-item kcz8vuom79d-editor_css",
-              children: [
-                {
-                  name: "image0",
-                  className: "item-image kcz8vvjskoi-editor_css",
-                  children:
-                    "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/video-camera.svg",
-                },
-                // {
-                //   name: "title",
-                //   className: "item-title",
-                //   children: (
-                //     <span>
-                //       <span>
-                //         <span>
-                //           <p>Live Interviews</p>
-                //         </span>
-                //       </span>
-                //     </span>
-                //   ),
-                // },
-                {
-                  name: "content",
-                  className: "item-content kf6zxy8kbqe-editor_css",
-                  children: (
-                    <span>
-                      <span>
-                        <span>
-                          <span>
-                            <span>
-                              <span>
-                                <p>Two way interviews built</p>
-                                <p>for recruiters&nbsp;</p>
-                              </span>
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </span>
-                  ),
-                },
-              ],
-              href: "/live-interviews",
-              target: "",
-            },
-          },
+          // {
+          //   name: "sub~kcz008mmgsc",
+          //   className: "item-sub",
+          //   children: {
+          //     className: "item-sub-item kcz8vuom79d-editor_css",
+          //     children: [
+          //       {
+          //         name: "image0",
+          //         className: "item-image kcz8vvjskoi-editor_css",
+          //         children:
+          //           "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/video-camera.svg",
+          //       },
+          //       {
+          //         name: "title",
+          //         className: "item-title",
+          //         children: (
+          //           <span>
+          //             <span>
+          //               <span>
+          //                 <p>Live Interviews</p>
+          //               </span>
+          //             </span>
+          //           </span>
+          //         ),
+          //       },
+          //       {
+          //         name: "content",
+          //         className: "item-content kf6zxy8kbqe-editor_css",
+          //         children: (
+          //           <span>
+          //             <span>
+          //               <span>
+          //                 <span>
+          //                   <span>
+          //                     <span>
+          //                       <p>Two way interviews built</p>
+          //                       <p>for recruiters&nbsp;</p>
+          //                     </span>
+          //                   </span>
+          //                 </span>
+          //               </span>
+          //             </span>
+          //           </span>
+          //         ),
+          //       },
+          //     ],
+          //     href: "/live-interviews",
+          //     target: "",
+          //   },
+          // },
           {
             name: "sub~kf6wcsf5a6",
             className: "item-sub",
@@ -271,56 +271,56 @@ export const Nav31DataSource = {
               target: "",
             },
           },
-          {
-            name: "sub~kcz008mmgsc",
-            className: "item-sub",
-            children: {
-              className: "item-sub-item kcz8vuom79d-editor_css",
-              children: [
-                {
-                  name: "image0",
-                  className: "item-image kcz8vvjskoi-editor_css",
-                  children:
-                    "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/video-camera.svg",
-                },
-                {
-                  name: "title",
-                  className: "item-title",
-                  children: (
-                    <span>
-                      <span>
-                        <span>
-                          <span>
-                            <p>Live Interviewing</p>
-                          </span>
-                        </span>
-                      </span>
-                    </span>
-                  ),
-                },
-                {
-                  name: "content",
-                  className: "item-content kf6zxy8kbqe-editor_css",
-                  children: (
-                    <span>
-                      <span>
-                        <span>
-                          <span>
-                            <span>
-                              <p>Two way interviews built</p>
-                              <p>for recruiters&nbsp;</p>
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </span>
-                  ),
-                },
-              ],
-              href: "/live-interviewing",
-              target: "",
-            },
-          },
+          // {
+          //   name: "sub~kcz008mmgsc",
+          //   className: "item-sub",
+          //   children: {
+          //     className: "item-sub-item kcz8vuom79d-editor_css",
+          //     children: [
+          //       {
+          //         name: "image0",
+          //         className: "item-image kcz8vvjskoi-editor_css",
+          //         children:
+          //           "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/video-camera.svg",
+          //       },
+          //       {
+          //         name: "title",
+          //         className: "item-title",
+          //         children: (
+          //           <span>
+          //             <span>
+          //               <span>
+          //                 <span>
+          //                   <p>Live Interviewing</p>
+          //                 </span>
+          //               </span>
+          //             </span>
+          //           </span>
+          //         ),
+          //       },
+          //       {
+          //         name: "content",
+          //         className: "item-content kf6zxy8kbqe-editor_css",
+          //         children: (
+          //           <span>
+          //             <span>
+          //               <span>
+          //                 <span>
+          //                   <span>
+          //                     <p>Two way interviews built</p>
+          //                     <p>for recruiters&nbsp;</p>
+          //                   </span>
+          //                 </span>
+          //               </span>
+          //             </span>
+          //           </span>
+          //         ),
+          //       },
+          //     ],
+          //     href: "/live-interviewing",
+          //     target: "",
+          //   },
+          // },
           {
             name: "sub~kf6wcsf5a6",
             className: "item-sub",
@@ -1078,42 +1078,42 @@ export const Content50DataSource = {
     className: "content5-img-wrapper",
     gutter: 16,
     children: [
-      {
-        name: "block2",
-        className: "block",
-        md: 12,
-        xs: 24,
-        children: {
-          wrapper: {
-            className: "content5-block-content kf5qf8iei1-editor_css",
-            href: "/live-interviews",
-          },
-          img: {
-            children:
-              "https://www.hubspot.com/hubfs/Blog_Move_On_Up/Videointerview.png",
-            className: "kf37jxidshs-editor_css",
-          },
-          content: {
-            children: (
-              <span>
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <p>What are: Live Interviews</p>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              </span>
-            ),
-          },
-        },
-      },
+      // {
+      //   name: "block2",
+      //   className: "block",
+      //   md: 12,
+      //   xs: 24,
+      //   children: {
+      //     wrapper: {
+      //       className: "content5-block-content kf5qf8iei1-editor_css",
+      //       href: "/live-interviews",
+      //     },
+      //     img: {
+      //       children:
+      //         "https://www.hubspot.com/hubfs/Blog_Move_On_Up/Videointerview.png",
+      //       className: "kf37jxidshs-editor_css",
+      //     },
+      //     content: {
+      //       children: (
+      //         <span>
+      //           <span>
+      //             <span>
+      //               <span>
+      //                 <span>
+      //                   <p>What are: Live Interviews</p>
+      //                 </span>
+      //               </span>
+      //             </span>
+      //           </span>
+      //         </span>
+      //       ),
+      //     },
+      //   },
+      // },
       {
         name: "block3",
         className: "block",
-        md: 12,
+        md: 24,
         xs: 24,
         children: {
           wrapper: {
@@ -1133,8 +1133,7 @@ export const Content50DataSource = {
                     <span>
                       <span>
                         <p>
-                          What are:&nbsp;<a href="/one-way-interviews">P</a>
-                          re-Recorded Interviews
+                          What are Pre-Recorded Interviews?
                           <br />
                         </p>
                       </span>
@@ -1146,33 +1145,33 @@ export const Content50DataSource = {
           },
         },
       },
-      {
-        name: "block5",
-        className: "block kf6vx0s0zi-editor_css",
-        md: 24,
-        xs: 24,
-        children: {
-          wrapper: { className: "content5-block-content", href: "/zoom" },
-          img: {
-            children:
-              "https://deephire.s3.amazonaws.com/websiteAssets/Stop+using+Zoom+for+Video+Interviews.+(4).png",
-            className: "kf5qiyz2uw-editor_css",
-          },
-          content: {
-            children: (
-              <span>
-                <span>
-                  <span>
-                    <span>
-                      <p>Comparison: Why DeepHire vs Zoom?</p>
-                    </span>
-                  </span>
-                </span>
-              </span>
-            ),
-          },
-        },
-      },
+      // {
+      //   name: "block5",
+      //   className: "block kf6vx0s0zi-editor_css",
+      //   md: 24,
+      //   xs: 24,
+      //   children: {
+      //     wrapper: { className: "content5-block-content", href: "/zoom" },
+      //     img: {
+      //       children:
+      //         "https://deephire.s3.amazonaws.com/websiteAssets/Stop+using+Zoom+for+Video+Interviews.+(4).png",
+      //       className: "kf5qiyz2uw-editor_css",
+      //     },
+      //     content: {
+      //       children: (
+      //         <span>
+      //           <span>
+      //             <span>
+      //               <span>
+      //                 <p>Comparison: Why DeepHire vs Zoom?</p>
+      //               </span>
+      //             </span>
+      //           </span>
+      //         </span>
+      //       ),
+      //     },
+      //   },
+      // },
     ],
   },
 }
@@ -1201,7 +1200,7 @@ export const Feature60DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>You can achieve:</p>
+                      <p>DeepHire Stats</p>
                     </span>
                   </span>
                 </span>
@@ -1223,19 +1222,19 @@ export const Feature60DataSource = {
                 className: "feature6-unit kctk3wja3dt-editor_css",
                 children: (
                   <span>
-                    <p>%</p>
+                    <p>+</p>
                   </span>
                 ),
               },
               toText: true,
-              children: "52",
+              children: "1000",
             },
             children: {
               className: "feature6-text",
               children: (
                 <span>
                   <span>
-                    <p>decreased time to hire</p>
+                    <p>hours saved</p>
                   </span>
                 </span>
               ),
@@ -1252,18 +1251,18 @@ export const Feature60DataSource = {
                 className: "feature6-unit kctjzr0p3ul-editor_css",
                 children: (
                   <span>
-                    <p>%</p>
+                    <p>+</p>
                   </span>
                 ),
               },
               toText: true,
-              children: "60",
+              children: "10,000",
             },
             children: {
               className: "feature6-text",
               children: (
                 <span>
-                  <p>recruiter time saved</p>
+                  <p>candidate interviews</p>
                 </span>
               ),
             },
@@ -1408,19 +1407,6 @@ export const Footer10DataSource = {
         },
         childWrapper: {
           children: [
-            {
-              name: "content~kf6vuhj0rpn",
-              className: "kf6vuuqtpk-editor_css",
-              children: (
-                <span>
-                  <span>
-                    <p>
-                      <a href="/demo">Request Demo</a>
-                    </p>
-                  </span>
-                </span>
-              ),
-            },
             {
               name: "link2",
               href: "/what-is-deephire",
