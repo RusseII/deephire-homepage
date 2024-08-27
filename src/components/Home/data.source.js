@@ -1,19 +1,19 @@
-import React from 'react';
+import React from "react"
 export const Nav31DataSource = {
-  wrapper: { className: 'header3 home-page-wrapper' },
-  page: { className: 'home-page' },
+  wrapper: { className: "header3 home-page-wrapper" },
+  page: { className: "home-page" },
   logo: {
-    className: 'header3-logo',
-    children: 'https://deephire.s3.amazonaws.com/logos/Horizontal.svg',
+    className: "header3-logo",
+    children: "https://deephire.s3.amazonaws.com/logos/Horizontal.svg",
   },
   Menu: {
-    className: 'header3-menu',
+    className: "header3-menu",
     children: [
       {
-        name: 'item~kf6zw8yhaem',
-        className: 'header3-item',
+        name: "item~kf6zw8yhaem",
+        className: "header3-item",
         children: {
-          href: '#',
+          href: "#",
           children: [
             {
               children: (
@@ -29,26 +29,26 @@ export const Nav31DataSource = {
                   </span>
                 </span>
               ),
-              name: 'text',
+              name: "text",
             },
           ],
         },
         subItem: [
           {
-            name: 'sub1',
-            className: 'item-sub',
+            name: "sub1",
+            className: "item-sub",
             children: {
-              className: 'item-sub-item',
+              className: "item-sub-item",
               children: [
                 {
-                  name: 'image0',
-                  className: 'item-image kcz8wnt2acf-editor_css',
+                  name: "image0",
+                  className: "item-image kcz8wnt2acf-editor_css",
                   children:
-                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/outlined/laptop.svg',
+                    "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/outlined/laptop.svg",
                 },
                 {
-                  name: 'title',
-                  className: 'item-title',
+                  name: "title",
+                  className: "item-title",
                   children: (
                     <span>
                       <span>
@@ -60,8 +60,8 @@ export const Nav31DataSource = {
                   ),
                 },
                 {
-                  name: 'content',
-                  className: 'item-content kf6zxf5d6eo-editor_css',
+                  name: "content",
+                  className: "item-content kf6zxf5d6eo-editor_css",
                   children: (
                     <span>
                       <span>
@@ -84,25 +84,25 @@ export const Nav31DataSource = {
                   ),
                 },
               ],
-              href: '/one-way-interviews',
-              target: '',
+              href: "/one-way-interviews",
+              target: "",
             },
           },
           {
-            name: 'sub~kcz008mmgsc',
-            className: 'item-sub',
+            name: "sub~kcz008mmgsc",
+            className: "item-sub",
             children: {
-              className: 'item-sub-item kcz8vuom79d-editor_css',
+              className: "item-sub-item kcz8vuom79d-editor_css",
               children: [
                 {
-                  name: 'image0',
-                  className: 'item-image kcz8vvjskoi-editor_css',
+                  name: "image0",
+                  className: "item-image kcz8vvjskoi-editor_css",
                   children:
-                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/video-camera.svg',
+                    "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/video-camera.svg",
                 },
                 {
-                  name: 'title',
-                  className: 'item-title',
+                  name: "title",
+                  className: "item-title",
                   children: (
                     <span>
                       <span>
@@ -114,8 +114,8 @@ export const Nav31DataSource = {
                   ),
                 },
                 {
-                  name: 'content',
-                  className: 'item-content kf6zxy8kbqe-editor_css',
+                  name: "content",
+                  className: "item-content kf6zxy8kbqe-editor_css",
                   children: (
                     <span>
                       <span>
@@ -134,25 +134,25 @@ export const Nav31DataSource = {
                   ),
                 },
               ],
-              href: '/live-interviews',
-              target: '',
+              href: "/live-interviews",
+              target: "",
             },
           },
           {
-            name: 'sub~kf6wcsf5a6',
-            className: 'item-sub',
+            name: "sub~kf6wcsf5a6",
+            className: "item-sub",
             children: {
-              className: 'item-sub-item kcz8vuom79d-editor_css',
+              className: "item-sub-item kcz8vuom79d-editor_css",
               children: [
                 {
-                  name: 'image0',
-                  className: 'item-image kcz8vvjskoi-editor_css',
+                  name: "image0",
+                  className: "item-image kcz8vvjskoi-editor_css",
                   children:
-                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/shop.svg',
+                    "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/shop.svg",
                 },
                 {
-                  name: 'title',
-                  className: 'item-title',
+                  name: "title",
+                  className: "item-title",
                   children: (
                     <span>
                       <span>
@@ -176,8 +176,8 @@ export const Nav31DataSource = {
                   ),
                 },
                 {
-                  name: 'content',
-                  className: 'item-content kf6zzz6t2aa-editor_css',
+                  name: "content",
+                  className: "item-content kf6zzz6t2aa-editor_css",
                   children: (
                     <span>
                       <span>
@@ -194,17 +194,17 @@ export const Nav31DataSource = {
                   ),
                 },
               ],
-              href: '/what-is-deephire',
-              target: '',
+              href: "/what-is-deephire",
+              target: "",
             },
           },
         ],
       },
       {
-        name: 'item~kf70om9czqi',
-        className: 'header3-item',
+        name: "item~kf70om9czqi",
+        className: "header3-item",
         children: {
-          href: '#',
+          href: "#",
           children: [
             {
               children: (
@@ -222,26 +222,26 @@ export const Nav31DataSource = {
                   </span>
                 </span>
               ),
-              name: 'text',
+              name: "text",
             },
           ],
         },
         subItem: [
           {
-            name: 'sub1',
-            className: 'item-sub',
+            name: "sub1",
+            className: "item-sub",
             children: {
-              className: 'item-sub-item',
+              className: "item-sub-item",
               children: [
                 {
-                  name: 'image0',
-                  className: 'item-image kcz8wnt2acf-editor_css',
+                  name: "image0",
+                  className: "item-image kcz8wnt2acf-editor_css",
                   children:
-                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/outlined/laptop.svg',
+                    "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/outlined/laptop.svg",
                 },
                 {
-                  name: 'title',
-                  className: 'item-title',
+                  name: "title",
+                  className: "item-title",
                   children: (
                     <span>
                       <span>
@@ -255,8 +255,8 @@ export const Nav31DataSource = {
                   ),
                 },
                 {
-                  name: 'content',
-                  className: 'item-content kf6zxf5d6eo-editor_css',
+                  name: "content",
+                  className: "item-content kf6zxf5d6eo-editor_css",
                   children: (
                     <span>
                       <span>
@@ -267,25 +267,25 @@ export const Nav31DataSource = {
                   ),
                 },
               ],
-              href: '/pre-screening',
-              target: '',
+              href: "/pre-screening",
+              target: "",
             },
           },
           {
-            name: 'sub~kcz008mmgsc',
-            className: 'item-sub',
+            name: "sub~kcz008mmgsc",
+            className: "item-sub",
             children: {
-              className: 'item-sub-item kcz8vuom79d-editor_css',
+              className: "item-sub-item kcz8vuom79d-editor_css",
               children: [
                 {
-                  name: 'image0',
-                  className: 'item-image kcz8vvjskoi-editor_css',
+                  name: "image0",
+                  className: "item-image kcz8vvjskoi-editor_css",
                   children:
-                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/video-camera.svg',
+                    "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/video-camera.svg",
                 },
                 {
-                  name: 'title',
-                  className: 'item-title',
+                  name: "title",
+                  className: "item-title",
                   children: (
                     <span>
                       <span>
@@ -299,8 +299,8 @@ export const Nav31DataSource = {
                   ),
                 },
                 {
-                  name: 'content',
-                  className: 'item-content kf6zxy8kbqe-editor_css',
+                  name: "content",
+                  className: "item-content kf6zxy8kbqe-editor_css",
                   children: (
                     <span>
                       <span>
@@ -317,25 +317,25 @@ export const Nav31DataSource = {
                   ),
                 },
               ],
-              href: '/live-interviewing',
-              target: '',
+              href: "/live-interviewing",
+              target: "",
             },
           },
           {
-            name: 'sub~kf6wcsf5a6',
-            className: 'item-sub',
+            name: "sub~kf6wcsf5a6",
+            className: "item-sub",
             children: {
-              className: 'item-sub-item kcz8vuom79d-editor_css',
+              className: "item-sub-item kcz8vuom79d-editor_css",
               children: [
                 {
-                  name: 'image0',
-                  className: 'item-image kcz8vvjskoi-editor_css',
+                  name: "image0",
+                  className: "item-image kcz8vvjskoi-editor_css",
                   children:
-                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/outlined/team.svg',
+                    "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/outlined/team.svg",
                 },
                 {
-                  name: 'title',
-                  className: 'item-title',
+                  name: "title",
+                  className: "item-title",
                   children: (
                     <span>
                       <span>
@@ -361,8 +361,8 @@ export const Nav31DataSource = {
                   ),
                 },
                 {
-                  name: 'content',
-                  className: 'item-content kf6zzz6t2aa-editor_css',
+                  name: "content",
+                  className: "item-content kf6zzz6t2aa-editor_css",
                   children: (
                     <span>
                       <span>
@@ -381,25 +381,25 @@ export const Nav31DataSource = {
                   ),
                 },
               ],
-              href: '/team-hiring',
-              target: '',
+              href: "/team-hiring",
+              target: "",
             },
           },
           {
-            name: 'sub~kf70qzvfct',
-            className: 'item-sub',
+            name: "sub~kf70qzvfct",
+            className: "item-sub",
             children: {
-              className: 'item-sub-item kcz8vuom79d-editor_css',
+              className: "item-sub-item kcz8vuom79d-editor_css",
               children: [
                 {
-                  name: 'image0',
-                  className: 'item-image kcz8vvjskoi-editor_css',
+                  name: "image0",
+                  className: "item-image kcz8vvjskoi-editor_css",
                   children:
-                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/outlined/share-alt.svg',
+                    "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/outlined/share-alt.svg",
                 },
                 {
-                  name: 'title',
-                  className: 'item-title',
+                  name: "title",
+                  className: "item-title",
                   children: (
                     <span>
                       <span>
@@ -427,8 +427,8 @@ export const Nav31DataSource = {
                   ),
                 },
                 {
-                  name: 'content',
-                  className: 'item-content kf6zzz6t2aa-editor_css',
+                  name: "content",
+                  className: "item-content kf6zzz6t2aa-editor_css",
                   children: (
                     <span>
                       <span>
@@ -449,17 +449,17 @@ export const Nav31DataSource = {
                   ),
                 },
               ],
-              href: '/send-outs',
-              target: '',
+              href: "/send-outs",
+              target: "",
             },
           },
         ],
       },
       {
-        name: 'item~keu6tmfv74a',
-        className: 'header3-item',
+        name: "item~keu6tmfv74a",
+        className: "header3-item",
         children: {
-          href: '#',
+          href: "#",
           children: [
             {
               children: (
@@ -473,26 +473,26 @@ export const Nav31DataSource = {
                   </span>
                 </span>
               ),
-              name: 'text',
+              name: "text",
             },
           ],
         },
         subItem: [
           {
-            name: 'sub1',
-            className: 'item-sub',
+            name: "sub1",
+            className: "item-sub",
             children: {
-              className: 'item-sub-item',
+              className: "item-sub-item",
               children: [
                 {
-                  name: 'image0',
-                  className: 'item-image kcz8wnt2acf-editor_css',
+                  name: "image0",
+                  className: "item-image kcz8wnt2acf-editor_css",
                   children:
-                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/book.svg',
+                    "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/book.svg",
                 },
                 {
-                  name: 'title',
-                  className: 'item-title',
+                  name: "title",
+                  className: "item-title",
                   children: (
                     <span>
                       <span>
@@ -502,8 +502,8 @@ export const Nav31DataSource = {
                   ),
                 },
                 {
-                  name: 'content',
-                  className: 'item-content',
+                  name: "content",
+                  className: "item-content",
                   children: (
                     <span>
                       <p>Best Practices</p>
@@ -511,25 +511,25 @@ export const Nav31DataSource = {
                   ),
                 },
               ],
-              href: 'https://blog.deephire.com',
-              target: '_blank',
+              href: "https://blog.deephire.com",
+              target: "_blank",
             },
           },
           {
-            name: 'sub~kcz008mmgsc',
-            className: 'item-sub',
+            name: "sub~kcz008mmgsc",
+            className: "item-sub",
             children: {
-              className: 'item-sub-item kcz8vuom79d-editor_css',
+              className: "item-sub-item kcz8vuom79d-editor_css",
               children: [
                 {
-                  name: 'image0',
-                  className: 'item-image kcz8vvjskoi-editor_css',
+                  name: "image0",
+                  className: "item-image kcz8vvjskoi-editor_css",
                   children:
-                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/sound.svg',
+                    "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/sound.svg",
                 },
                 {
-                  name: 'title',
-                  className: 'item-title',
+                  name: "title",
+                  className: "item-title",
                   children: (
                     <span>
                       <span>
@@ -539,8 +539,8 @@ export const Nav31DataSource = {
                   ),
                 },
                 {
-                  name: 'content',
-                  className: 'item-content',
+                  name: "content",
+                  className: "item-content",
                   children: (
                     <span>
                       <span>
@@ -550,25 +550,25 @@ export const Nav31DataSource = {
                   ),
                 },
               ],
-              href: 'https://anchor.fm/deephire-podcast',
-              target: '_blank',
+              href: "https://anchor.fm/deephire-podcast",
+              target: "_blank",
             },
           },
           {
-            name: 'sub~kf6wcsf5a6',
-            className: 'item-sub',
+            name: "sub~kf6wcsf5a6",
+            className: "item-sub",
             children: {
-              className: 'item-sub-item kcz8vuom79d-editor_css',
+              className: "item-sub-item kcz8vuom79d-editor_css",
               children: [
                 {
-                  name: 'image0',
-                  className: 'item-image kcz8vvjskoi-editor_css',
+                  name: "image0",
+                  className: "item-image kcz8vvjskoi-editor_css",
                   children:
-                    'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/video-camera.svg',
+                    "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/video-camera.svg",
                 },
                 {
-                  name: 'title',
-                  className: 'item-title',
+                  name: "title",
+                  className: "item-title",
                   children: (
                     <span>
                       <span>
@@ -579,7 +579,8 @@ export const Nav31DataSource = {
                                 <span>
                                   <span>
                                     <p>
-                                      DeepHire <br />vs Zoom
+                                      DeepHire <br />
+                                      vs Zoom
                                     </p>
                                   </span>
                                 </span>
@@ -592,8 +593,8 @@ export const Nav31DataSource = {
                   ),
                 },
                 {
-                  name: 'content',
-                  className: 'item-content',
+                  name: "content",
+                  className: "item-content",
                   children: (
                     <span>
                       <span>
@@ -605,17 +606,17 @@ export const Nav31DataSource = {
                   ),
                 },
               ],
-              href: '/zoom',
-              target: '',
+              href: "/zoom",
+              target: "",
             },
           },
         ],
       },
       {
-        name: 'item1',
-        className: 'header3-item',
+        name: "item1",
+        className: "header3-item",
         children: {
-          href: '/pricing',
+          href: "/pricing",
           children: [
             {
               children: (
@@ -629,17 +630,17 @@ export const Nav31DataSource = {
                   </span>
                 </span>
               ),
-              name: 'text',
+              name: "text",
             },
           ],
         },
         subItem: null,
       },
       {
-        name: 'item~kfoamxr1et',
-        className: 'header3-item',
+        name: "item~kfoamxr1et",
+        className: "header3-item",
         children: {
-          href: 'https://recruiter.deephire.com',
+          href: "https://recruiter.deephire.com",
           children: [
             {
               children: (
@@ -655,17 +656,17 @@ export const Nav31DataSource = {
                   </span>
                 </span>
               ),
-              name: 'text',
+              name: "text",
             },
           ],
         },
         subItem: null,
       },
       {
-        name: 'item~kfoamwdf9io',
-        className: 'header3-item',
+        name: "item~kfoamwdf9io",
+        className: "header3-item",
         children: {
-          href: 'https://recruiter.deephire.com/user/login?signupEmail=%20',
+          href: " ",
           children: [
             {
               children: (
@@ -685,7 +686,7 @@ export const Nav31DataSource = {
                   </span>
                 </span>
               ),
-              name: 'text',
+              name: "text",
             },
           ],
         },
@@ -693,16 +694,16 @@ export const Nav31DataSource = {
       },
     ],
   },
-  mobileMenu: { className: 'header3-mobile-menu' },
-};
+  mobileMenu: { className: "header3-mobile-menu" },
+}
 export const Banner50DataSource = {
-  wrapper: { className: 'home-page-wrapper banner5 kctityxly1r-editor_css' },
-  page: { className: 'home-page banner5-page kcz8vxyiuvj-editor_css' },
+  wrapper: { className: "home-page-wrapper banner5 kctityxly1r-editor_css" },
+  page: { className: "home-page banner5-page kcz8vxyiuvj-editor_css" },
   childWrapper: {
-    className: 'banner5-title-wrapper kcxzzfruow-editor_css',
+    className: "banner5-title-wrapper kcxzzfruow-editor_css",
     children: [
       {
-        name: 'title',
+        name: "title",
         children: (
           <span>
             <span>
@@ -712,7 +713,7 @@ export const Banner50DataSource = {
                     <span>
                       <span>
                         <span>
-                          <p>Best Video Interview Software</p>
+                          <p>Ultimate Pre-Screen Video Interview Platform</p>
                         </span>
                       </span>
                     </span>
@@ -722,11 +723,11 @@ export const Banner50DataSource = {
             </span>
           </span>
         ),
-        className: 'banner5-title kd5z81k44h-editor_css',
+        className: "banner5-title kd5z81k44h-editor_css",
       },
       {
-        name: 'explain',
-        className: 'banner5-explain',
+        name: "explain",
+        className: "banner5-explain",
         children: (
           <span>
             <span>
@@ -741,7 +742,8 @@ export const Banner50DataSource = {
                               <font>
                                 <font>
                                   <font>
-                                    Make your recruitment team a hiring machine.
+                                    Streamline your hiring process and identify
+                                    top talent before the first conversation.
                                   </font>
                                 </font>
                               </font>
@@ -758,13 +760,13 @@ export const Banner50DataSource = {
         ),
       },
       {
-        name: 'image~kfoa5lhe59',
-        className: 'kfoa5ojswqb-editor_css',
-        children: 'https://deephire.s3.amazonaws.com/websiteAssets/checks2.png',
+        name: "image~kfoa5lhe59",
+        className: "kfoa5ojswqb-editor_css",
+        children: "https://deephire.s3.amazonaws.com/websiteAssets/checks2.png",
       },
       {
-        name: 'content',
-        className: 'banner5-content kfoa66zssyk-editor_css',
+        name: "content",
+        className: "banner5-content kfoa66zssyk-editor_css",
         children: (
           <span>
             <span>
@@ -792,12 +794,12 @@ export const Banner50DataSource = {
         ),
       },
       {
-        name: 'button',
-        className: 'banner5-button-wrapper',
+        name: "button",
+        className: "banner5-button-wrapper",
         children: {
-          href: 'https://recruiter.deephire.com/user/login?signupEmail=%20',
-          className: 'banner5-button kd5z8m3n24l-editor_css',
-          type: 'primary',
+          href: "https://recruiter.deephire.com/user/login?signupEmail=%20",
+          className: "banner5-button kd5z8m3n24l-editor_css",
+          type: "primary",
           children: (
             <span>
               <span>
@@ -816,19 +818,19 @@ export const Banner50DataSource = {
     ],
   },
   image: {
-    className: 'banner5-image kcxwzhfpex-editor_css',
-    children: 'https://deephire.s3.amazonaws.com/image.png',
+    className: "banner5-image kcxwzhfpex-editor_css",
+    children: "https://deephire.s3.amazonaws.com/image.png",
   },
-};
+}
 export const Feature40DataSource = {
-  wrapper: { className: 'home-page-wrapper content6-wrapper' },
-  OverPack: { className: 'home-page content6' },
-  textWrapper: { className: 'content6-text', xs: 24, md: 10 },
+  wrapper: { className: "home-page-wrapper content6-wrapper" },
+  OverPack: { className: "home-page content6" },
+  textWrapper: { className: "content6-text", xs: 24, md: 10 },
   titleWrapper: {
-    className: 'title-wrapper',
+    className: "title-wrapper",
     children: [
       {
-        name: 'title',
+        name: "title",
         children: (
           <span>
             <span>
@@ -836,28 +838,28 @@ export const Feature40DataSource = {
             </span>
           </span>
         ),
-        className: 'title-h1',
+        className: "title-h1",
       },
     ],
   },
   img: {
     children:
-      'https://deephire.s3.amazonaws.com/websiteAssets/undraw_informed_decision_p2lh.svg',
-    className: 'content6-img',
+      "https://deephire.s3.amazonaws.com/websiteAssets/undraw_informed_decision_p2lh.svg",
+    className: "content6-img",
     xs: 24,
     md: 14,
   },
   block: {
     children: [
       {
-        name: 'block0',
+        name: "block0",
         img: {
           children:
-            'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
-          className: 'content6-icon',
+            "https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png",
+          className: "content6-icon",
         },
         title: {
-          className: 'content6-title',
+          className: "content6-title",
           children: (
             <span>
               <p>Make every recruiter consistent and scalable.&nbsp;</p>
@@ -865,7 +867,7 @@ export const Feature40DataSource = {
           ),
         },
         content: {
-          className: 'content6-content',
+          className: "content6-content",
           children: (
             <span>
               <p>
@@ -878,14 +880,14 @@ export const Feature40DataSource = {
         },
       },
       {
-        name: 'block1',
+        name: "block1",
         img: {
-          className: 'content6-icon',
+          className: "content6-icon",
           children:
-            'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
+            "https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png",
         },
         title: {
-          className: 'content6-title',
+          className: "content6-title",
           children: (
             <span>
               <p>Optimize your process to fill more roles faster.&nbsp;</p>
@@ -893,7 +895,7 @@ export const Feature40DataSource = {
           ),
         },
         content: {
-          className: 'content6-content',
+          className: "content6-content",
           children: (
             <span>
               <p>
@@ -905,14 +907,14 @@ export const Feature40DataSource = {
         },
       },
       {
-        name: 'block2',
+        name: "block2",
         img: {
-          className: 'content6-icon',
+          className: "content6-icon",
           children:
-            'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+            "https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png",
         },
         title: {
-          className: 'content6-title',
+          className: "content6-title",
           children: (
             <span>
               <span>
@@ -926,7 +928,7 @@ export const Feature40DataSource = {
           ),
         },
         content: {
-          className: 'content6-content',
+          className: "content6-content",
           children: (
             <span>
               <span>
@@ -941,155 +943,155 @@ export const Feature40DataSource = {
       },
     ],
   },
-};
+}
 export const Content122DataSource = {
   wrapper: {
-    className: 'home-page-wrapper content12-wrapper kf5okpqplr-editor_css',
+    className: "home-page-wrapper content12-wrapper kf5okpqplr-editor_css",
   },
-  page: { className: 'home-page content12' },
-  OverPack: { playScale: 0.3, className: '' },
+  page: { className: "home-page content12" },
+  OverPack: { playScale: 0.3, className: "" },
   titleWrapper: {
-    className: 'title-wrapper',
+    className: "title-wrapper",
     children: [
       {
-        name: 'image',
+        name: "image",
         children:
-          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
-        className: 'title-image',
+          "https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg",
+        className: "title-image",
       },
       {
-        name: 'title',
+        name: "title",
         children: (
           <span>
             <p>Join the Incredible Organizations using DeepHire</p>
           </span>
         ),
-        className: 'title-h1',
+        className: "title-h1",
       },
     ],
   },
   block: {
-    className: 'img-wrapper',
+    className: "img-wrapper",
     children: [
       {
-        name: 'block0',
-        className: 'block',
+        name: "block0",
+        className: "block",
         md: 8,
         xs: 24,
         children: {
-          wrapper: { className: 'block-content' },
+          wrapper: { className: "block-content" },
           img: {
             children:
-              'https://deephire.s3.amazonaws.com/websiteAssets/customerLogos/1.png',
+              "https://deephire.s3.amazonaws.com/websiteAssets/customerLogos/1.png",
           },
         },
       },
       {
-        name: 'block1',
-        className: 'block',
+        name: "block1",
+        className: "block",
         md: 8,
         xs: 24,
         children: {
-          wrapper: { className: 'block-content' },
+          wrapper: { className: "block-content" },
           img: {
             children:
-              'https://deephire.s3.amazonaws.com/websiteAssets/customerLogos/2.png',
+              "https://deephire.s3.amazonaws.com/websiteAssets/customerLogos/2.png",
           },
         },
       },
       {
-        name: 'block2',
-        className: 'block',
+        name: "block2",
+        className: "block",
         md: 8,
         xs: 24,
         children: {
-          wrapper: { className: 'block-content' },
+          wrapper: { className: "block-content" },
           img: {
             children:
-              'https://deephire.s3.amazonaws.com/websiteAssets/customerLogos/3.png',
+              "https://deephire.s3.amazonaws.com/websiteAssets/customerLogos/3.png",
           },
         },
       },
       {
-        name: 'block3',
-        className: 'block',
+        name: "block3",
+        className: "block",
         md: 8,
         xs: 24,
         children: {
-          wrapper: { className: 'block-content' },
+          wrapper: { className: "block-content" },
           img: {
             children:
-              'https://deephire.s3.amazonaws.com/websiteAssets/customerLogos/4.png',
+              "https://deephire.s3.amazonaws.com/websiteAssets/customerLogos/4.png",
           },
         },
       },
       {
-        name: 'block4',
-        className: 'block',
+        name: "block4",
+        className: "block",
         md: 8,
         xs: 24,
         children: {
-          wrapper: { className: 'block-content' },
+          wrapper: { className: "block-content" },
           img: {
             children:
-              'https://deephire.s3.amazonaws.com/websiteAssets/customerLogos/5.png',
+              "https://deephire.s3.amazonaws.com/websiteAssets/customerLogos/5.png",
           },
         },
       },
       {
-        name: 'block5',
-        className: 'block',
+        name: "block5",
+        className: "block",
         md: 8,
         xs: 24,
         children: {
-          wrapper: { className: 'block-content' },
+          wrapper: { className: "block-content" },
           img: {
             children:
-              'https://deephire.s3.amazonaws.com/websiteAssets/customerLogos/6.png',
+              "https://deephire.s3.amazonaws.com/websiteAssets/customerLogos/6.png",
           },
         },
       },
     ],
   },
-};
+}
 export const Content50DataSource = {
   wrapper: {
-    className: 'home-page-wrapper content5-wrapper kf6zqvhrl0j-editor_css',
+    className: "home-page-wrapper content5-wrapper kf6zqvhrl0j-editor_css",
   },
-  page: { className: 'home-page content5 kf6v0pzjq9r-editor_css' },
-  OverPack: { playScale: 0.3, className: '' },
+  page: { className: "home-page content5 kf6v0pzjq9r-editor_css" },
+  OverPack: { playScale: 0.3, className: "" },
   titleWrapper: {
-    className: 'title-wrapper',
+    className: "title-wrapper",
     children: [
       {
-        name: 'title',
+        name: "title",
         children: (
           <span>
             <p>Resources to Support You Along the Way</p>
           </span>
         ),
-        className: 'title-h1',
+        className: "title-h1",
       },
     ],
   },
   block: {
-    className: 'content5-img-wrapper',
+    className: "content5-img-wrapper",
     gutter: 16,
     children: [
       {
-        name: 'block2',
-        className: 'block',
+        name: "block2",
+        className: "block",
         md: 12,
         xs: 24,
         children: {
           wrapper: {
-            className: 'content5-block-content kf5qf8iei1-editor_css',
-            href: '/live-interviews',
+            className: "content5-block-content kf5qf8iei1-editor_css",
+            href: "/live-interviews",
           },
           img: {
             children:
-              'https://www.hubspot.com/hubfs/Blog_Move_On_Up/Videointerview.png',
-            className: 'kf37jxidshs-editor_css',
+              "https://www.hubspot.com/hubfs/Blog_Move_On_Up/Videointerview.png",
+            className: "kf37jxidshs-editor_css",
           },
           content: {
             children: (
@@ -1109,19 +1111,19 @@ export const Content50DataSource = {
         },
       },
       {
-        name: 'block3',
-        className: 'block',
+        name: "block3",
+        className: "block",
         md: 12,
         xs: 24,
         children: {
           wrapper: {
-            className: 'content5-block-content',
-            href: '/one-way-interviews',
+            className: "content5-block-content",
+            href: "/one-way-interviews",
           },
           img: {
             children:
-              'https://www.springboard.com/blog/wp-content/uploads/2020/04/SB-Blog-Tipsvideointerview-A-final-768x314.png',
-            className: 'kf5q9not3x-editor_css',
+              "https://www.springboard.com/blog/wp-content/uploads/2020/04/SB-Blog-Tipsvideointerview-A-final-768x314.png",
+            className: "kf5q9not3x-editor_css",
           },
           content: {
             children: (
@@ -1131,8 +1133,9 @@ export const Content50DataSource = {
                     <span>
                       <span>
                         <p>
-                          What are:&nbsp;<a href="/one-way-interviews">P</a>re-Recorded
-                          Interviews<br />
+                          What are:&nbsp;<a href="/one-way-interviews">P</a>
+                          re-Recorded Interviews
+                          <br />
                         </p>
                       </span>
                     </span>
@@ -1144,16 +1147,16 @@ export const Content50DataSource = {
         },
       },
       {
-        name: 'block5',
-        className: 'block kf6vx0s0zi-editor_css',
+        name: "block5",
+        className: "block kf6vx0s0zi-editor_css",
         md: 24,
         xs: 24,
         children: {
-          wrapper: { className: 'content5-block-content', href: '/zoom' },
+          wrapper: { className: "content5-block-content", href: "/zoom" },
           img: {
             children:
-              'https://deephire.s3.amazonaws.com/websiteAssets/Stop+using+Zoom+for+Video+Interviews.+(4).png',
-            className: 'kf5qiyz2uw-editor_css',
+              "https://deephire.s3.amazonaws.com/websiteAssets/Stop+using+Zoom+for+Video+Interviews.+(4).png",
+            className: "kf5qiyz2uw-editor_css",
           },
           content: {
             children: (
@@ -1172,26 +1175,26 @@ export const Content50DataSource = {
       },
     ],
   },
-};
+}
 export const Feature60DataSource = {
-  wrapper: { className: 'home-page-wrapper feature6-wrapper' },
-  OverPack: { className: 'home-page feature6', playScale: 0.3 },
+  wrapper: { className: "home-page-wrapper feature6-wrapper" },
+  OverPack: { className: "home-page feature6", playScale: 0.3 },
   Carousel: {
-    className: 'feature6-content',
+    className: "feature6-content",
     dots: false,
-    wrapper: { className: 'feature6-content-wrapper' },
+    wrapper: { className: "feature6-content-wrapper" },
     titleWrapper: {
-      className: 'feature6-title-wrapper',
+      className: "feature6-title-wrapper",
       barWrapper: {
-        className: 'feature6-title-bar-wrapper',
-        children: { className: 'feature6-title-bar' },
+        className: "feature6-title-bar-wrapper",
+        children: { className: "feature6-title-bar" },
       },
-      title: { className: 'feature6-title' },
+      title: { className: "feature6-title" },
     },
     children: [
       {
         title: {
-          className: 'feature6-title-text',
+          className: "feature6-title-text",
           children: (
             <span>
               <span>
@@ -1206,18 +1209,18 @@ export const Feature60DataSource = {
             </span>
           ),
         },
-        className: 'feature6-item',
-        name: 'block0',
+        className: "feature6-item",
+        name: "block0",
         children: [
           {
             md: 8,
             xs: 24,
-            className: 'feature6-number-wrapper',
-            name: 'child0',
+            className: "feature6-number-wrapper",
+            name: "child0",
             number: {
-              className: 'feature6-number',
+              className: "feature6-number",
               unit: {
-                className: 'feature6-unit kctk3wja3dt-editor_css',
+                className: "feature6-unit kctk3wja3dt-editor_css",
                 children: (
                   <span>
                     <p>%</p>
@@ -1225,10 +1228,10 @@ export const Feature60DataSource = {
                 ),
               },
               toText: true,
-              children: '52',
+              children: "52",
             },
             children: {
-              className: 'feature6-text',
+              className: "feature6-text",
               children: (
                 <span>
                   <span>
@@ -1241,12 +1244,12 @@ export const Feature60DataSource = {
           {
             md: 8,
             xs: 24,
-            className: 'feature6-number-wrapper',
-            name: 'child1',
+            className: "feature6-number-wrapper",
+            name: "child1",
             number: {
-              className: 'feature6-number',
+              className: "feature6-number",
               unit: {
-                className: 'feature6-unit kctjzr0p3ul-editor_css',
+                className: "feature6-unit kctjzr0p3ul-editor_css",
                 children: (
                   <span>
                     <p>%</p>
@@ -1254,10 +1257,10 @@ export const Feature60DataSource = {
                 ),
               },
               toText: true,
-              children: '60',
+              children: "60",
             },
             children: {
-              className: 'feature6-text',
+              className: "feature6-text",
               children: (
                 <span>
                   <p>recruiter time saved</p>
@@ -1268,12 +1271,12 @@ export const Feature60DataSource = {
           {
             md: 8,
             xs: 24,
-            className: 'feature6-number-wrapper',
-            name: 'child2',
+            className: "feature6-number-wrapper",
+            name: "child2",
             number: {
-              className: 'feature6-number',
+              className: "feature6-number",
               unit: {
-                className: 'feature6-unit kctk0pwgf1p-editor_css',
+                className: "feature6-unit kctk0pwgf1p-editor_css",
                 children: (
                   <span>
                     <p>%</p>
@@ -1281,10 +1284,10 @@ export const Feature60DataSource = {
                 ),
               },
               toText: true,
-              children: '97',
+              children: "97",
             },
             children: {
-              className: 'feature6-text',
+              className: "feature6-text",
               children: (
                 <span>
                   <p>candidate satisfaction rate</p>
@@ -1296,23 +1299,23 @@ export const Feature60DataSource = {
       },
     ],
   },
-};
+}
 export const Content110DataSource = {
   OverPack: {
-    className: 'home-page-wrapper content11-wrapper kf6u7dxr6de-editor_css',
+    className: "home-page-wrapper content11-wrapper kf6u7dxr6de-editor_css",
     playScale: 0.3,
   },
   titleWrapper: {
-    className: 'title-wrapper',
+    className: "title-wrapper",
     children: [
       {
-        name: 'image',
+        name: "image",
         children:
-          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
-        className: 'title-image',
+          "https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg",
+        className: "title-image",
       },
       {
-        name: 'title',
+        name: "title",
         children: (
           <span>
             <span>
@@ -1320,10 +1323,10 @@ export const Content110DataSource = {
             </span>
           </span>
         ),
-        className: 'title-h1',
+        className: "title-h1",
       },
       {
-        name: 'content',
+        name: "content",
         children: (
           <span>
             <span>
@@ -1334,16 +1337,16 @@ export const Content110DataSource = {
             </span>
           </span>
         ),
-        className: 'title-content',
+        className: "title-content",
       },
     ],
   },
   button: {
-    className: '',
+    className: "",
     children: {
       a: {
-        className: 'button',
-        href: 'https://recruiter.deephire.com/user/login?signupEmail=%20',
+        className: "button",
+        href: "https://recruiter.deephire.com/user/login?signupEmail=%20",
         children: (
           <span>
             <span>
@@ -1354,29 +1357,29 @@ export const Content110DataSource = {
       },
     },
   },
-};
+}
 export const Footer10DataSource = {
-  wrapper: { className: 'home-page-wrapper footer1-wrapper' },
-  OverPack: { className: 'footer1', playScale: 0.2 },
+  wrapper: { className: "home-page-wrapper footer1-wrapper" },
+  OverPack: { className: "footer1", playScale: 0.2 },
   block: {
-    className: 'home-page',
+    className: "home-page",
     gutter: 0,
     children: [
       {
-        name: 'block0',
+        name: "block0",
         xs: 24,
         md: 6,
-        className: 'block',
+        className: "block",
         title: {
-          className: 'logo',
+          className: "logo",
           children:
-            'https://deephire.s3.amazonaws.com/logos/Horizontal+White.svg',
+            "https://deephire.s3.amazonaws.com/logos/Horizontal+White.svg",
         },
         childWrapper: {
-          className: 'slogan',
+          className: "slogan",
           children: [
             {
-              name: 'content0',
+              name: "content0",
               children: (
                 <span>
                   <p>
@@ -1390,10 +1393,10 @@ export const Footer10DataSource = {
         },
       },
       {
-        name: 'block1',
+        name: "block1",
         xs: 24,
         md: 6,
-        className: 'block',
+        className: "block",
         title: {
           children: (
             <span>
@@ -1406,8 +1409,8 @@ export const Footer10DataSource = {
         childWrapper: {
           children: [
             {
-              name: 'content~kf6vuhj0rpn',
-              className: 'kf6vuuqtpk-editor_css',
+              name: "content~kf6vuhj0rpn",
+              className: "kf6vuuqtpk-editor_css",
               children: (
                 <span>
                   <span>
@@ -1419,8 +1422,8 @@ export const Footer10DataSource = {
               ),
             },
             {
-              name: 'link2',
-              href: '/what-is-deephire',
+              name: "link2",
+              href: "/what-is-deephire",
               children: (
                 <span>
                   <span>
@@ -1432,8 +1435,8 @@ export const Footer10DataSource = {
               ),
             },
             {
-              name: 'link0',
-              href: '/pricing',
+              name: "link0",
+              href: "/pricing",
               children: (
                 <span>
                   <span>
@@ -1441,16 +1444,16 @@ export const Footer10DataSource = {
                   </span>
                 </span>
               ),
-              className: 'kf6vq0gfksm-editor_css',
+              className: "kf6vq0gfksm-editor_css",
             },
           ],
         },
       },
       {
-        name: 'block~kf38bitbqdj',
+        name: "block~kf38bitbqdj",
         xs: 24,
         md: 6,
-        className: 'block',
+        className: "block",
         title: {
           children: (
             <span>
@@ -1465,8 +1468,8 @@ export const Footer10DataSource = {
         childWrapper: {
           children: [
             {
-              name: 'content~kf38mkg8pam',
-              className: 'kf6vie82ghl-editor_css',
+              name: "content~kf38mkg8pam",
+              className: "kf6vie82ghl-editor_css",
               children: (
                 <span>
                   <span>
@@ -1480,8 +1483,8 @@ export const Footer10DataSource = {
               ),
             },
             {
-              name: 'content~kf38n0zkztd',
-              className: 'kf5pjulvwgi-editor_css',
+              name: "content~kf38n0zkztd",
+              className: "kf5pjulvwgi-editor_css",
               children: (
                 <span>
                   <span>
@@ -1495,8 +1498,8 @@ export const Footer10DataSource = {
               ),
             },
             {
-              name: 'content~kf38n1vkj2m',
-              className: 'kf6vj360jdd-editor_css',
+              name: "content~kf38n1vkj2m",
+              className: "kf6vj360jdd-editor_css",
               children: (
                 <span>
                   <span>
@@ -1508,8 +1511,8 @@ export const Footer10DataSource = {
               ),
             },
             {
-              name: 'content~kf38n2uj5g',
-              className: 'kf6vj4q3m3-editor_css',
+              name: "content~kf38n2uj5g",
+              className: "kf6vj4q3m3-editor_css",
               children: (
                 <span>
                   <span>
@@ -1524,10 +1527,10 @@ export const Footer10DataSource = {
         },
       },
       {
-        name: 'block~kf38dxerea6',
+        name: "block~kf38dxerea6",
         xs: 24,
         md: 6,
-        className: 'block',
+        className: "block",
         title: {
           children: (
             <span>
@@ -1544,13 +1547,13 @@ export const Footer10DataSource = {
               </span>
             </span>
           ),
-          className: 'kf4eusqapam-editor_css',
+          className: "kf4eusqapam-editor_css",
         },
         childWrapper: {
           children: [
             {
-              name: 'content~kf38ev4tui',
-              className: '',
+              name: "content~kf38ev4tui",
+              className: "",
               children: (
                 <span>
                   <span>
@@ -1563,8 +1566,8 @@ export const Footer10DataSource = {
               ),
             },
             {
-              name: 'content~kf38gxoxya',
-              className: '',
+              name: "content~kf38gxoxya",
+              className: "",
               children: (
                 <span>
                   <span>
@@ -1588,8 +1591,8 @@ export const Footer10DataSource = {
               ),
             },
             {
-              name: 'button~kf38hft3fk',
-              className: '',
+              name: "button~kf38hft3fk",
+              className: "",
               children: {
                 children: (
                   <span>
@@ -1598,19 +1601,19 @@ export const Footer10DataSource = {
                     </span>
                   </span>
                 ),
-                href: 'https://recruiter.deephire.com',
-                type: 'default',
-                className: 'ant-btn-default kf6ztalhf8c-editor_css',
+                href: "https://recruiter.deephire.com",
+                type: "default",
+                className: "ant-btn-default kf6ztalhf8c-editor_css",
               },
             },
           ],
         },
       },
       {
-        name: 'block2',
+        name: "block2",
         xs: 24,
         md: 6,
-        className: 'block',
+        className: "block",
         title: {
           children: (
             <span>
@@ -1623,8 +1626,8 @@ export const Footer10DataSource = {
         childWrapper: {
           children: [
             {
-              name: 'content~kf38j0xkr3h',
-              className: 'kf6vjz8s93-editor_css',
+              name: "content~kf38j0xkr3h",
+              className: "kf6vjz8s93-editor_css",
               children: (
                 <span>
                   <span>
@@ -1636,8 +1639,8 @@ export const Footer10DataSource = {
               ),
             },
             {
-              name: 'content~kf38jut9gwg',
-              className: 'kf6vmdoat6s-editor_css',
+              name: "content~kf38jut9gwg",
+              className: "kf6vmdoat6s-editor_css",
               children: (
                 <span>
                   <span>
@@ -1649,8 +1652,8 @@ export const Footer10DataSource = {
               ),
             },
             {
-              name: 'content~kf38jwvv5g6',
-              className: 'kf6vmft01i-editor_css',
+              name: "content~kf38jwvv5g6",
+              className: "kf6vmft01i-editor_css",
               children: (
                 <span>
                   <span>
@@ -1666,15 +1669,15 @@ export const Footer10DataSource = {
       },
     ],
   },
-  copyrightWrapper: { className: 'copyright-wrapper' },
-  copyrightPage: { className: 'home-page' },
+  copyrightWrapper: { className: "copyright-wrapper" },
+  copyrightPage: { className: "home-page" },
   copyright: {
-    className: 'copyright',
+    className: "copyright",
     children: (
       <span>
-        ©2020 by <a href="https://deephire.com">DeepHire</a>&nbsp;All Rights
-        Reserved
+        ©{new Date().getFullYear()} by{" "}
+        <a href="https://deephire.com">DeepHire</a>&nbsp;All Rights Reserved
       </span>
     ),
   },
-};
+}
