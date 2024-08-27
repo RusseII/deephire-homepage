@@ -40,12 +40,12 @@ export const Banner50DataSource = {
         name: "button",
         className: "banner5-button-wrapper",
         children: {
-          href: "/demo",
+          href: "https://recruiter.deephire.com/user/login?signupEmail=%20",
           className: "banner5-button",
           type: "primary",
           children: (
             <span>
-              <p>GET DEMO</p>
+              <p>Start Now</p>
             </span>
           ),
         },
@@ -578,10 +578,10 @@ export const Content110DataSource = {
     children: {
       a: {
         className: "button",
-        href: "/demo",
+        href: "https://recruiter.deephire.com/user/login?signupEmail=%20",
         children: (
           <span>
-            <p>GET DEMO</p>
+            <p>Start Now</p>
           </span>
         ),
       },

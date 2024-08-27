@@ -1468,21 +1468,7 @@ export const Footer10DataSource = {
                 </span>
               ),
             },
-            {
-              name: "content~kf38n0zkztd",
-              className: "kf5pjulvwgi-editor_css",
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <p>
-                        <a href="/live-interviewing">Live Interviewing</a>
-                      </p>
-                    </span>
-                  </span>
-                </span>
-              ),
-            },
+
             {
               name: "content~kf38n1vkj2m",
               className: "kf6vj360jdd-editor_css",

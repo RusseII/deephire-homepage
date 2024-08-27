@@ -1,43 +1,43 @@
-import React from 'react';
+import React from "react"
 export const Feature50DataSource = {
-  wrapper: { className: 'home-page-wrapper content7-wrapper' },
-  page: { className: 'home-page content7' },
+  wrapper: { className: "home-page-wrapper content7-wrapper" },
+  page: { className: "home-page content7" },
   OverPack: {},
   titleWrapper: {
-    className: 'title-wrapper',
+    className: "title-wrapper",
     children: [
       {
-        name: 'title',
+        name: "title",
         children: (
           <span>
             <p>A platform built to support your workflows.&nbsp;</p>
           </span>
         ),
-        className: 'title-h1',
+        className: "title-h1",
       },
     ],
   },
-  tabsWrapper: { className: 'content7-tabs-wrapper' },
+  tabsWrapper: { className: "content7-tabs-wrapper" },
   block: {
     children: [
       {
-        name: 'block0',
+        name: "block0",
         tag: {
-          className: 'content7-tag',
+          className: "content7-tag",
           text: {
             children: (
               <span>
                 <p>Pre-Recorded Interviews</p>
               </span>
             ),
-            className: 'content7-tag-name',
+            className: "content7-tag-name",
           },
-          icon: { children: 'mobile' },
+          icon: { children: "mobile" },
         },
         content: {
-          className: 'content7-content',
+          className: "content7-content",
           text: {
-            className: 'content7-text',
+            className: "content7-text",
             md: 14,
             xs: 24,
             children: (
@@ -68,21 +68,21 @@ export const Feature50DataSource = {
             ),
           },
           img: {
-            className: 'content7-img',
+            className: "content7-img",
             children:
-              'https://deephire.s3.amazonaws.com/websiteAssets/candidate-view.gif',
+              "https://deephire.s3.amazonaws.com/websiteAssets/candidate-view.gif",
             md: 10,
             xs: 24,
           },
         },
       },
       {
-        name: 'block1',
+        name: "block1",
         tag: {
-          className: 'content7-tag',
-          icon: { children: 'tablet' },
+          className: "content7-tag",
+          icon: { children: "tablet" },
           text: {
-            className: 'content7-tag-name',
+            className: "content7-tag-name",
             children: (
               <span>
                 <p>Live Interviews</p>
@@ -91,9 +91,9 @@ export const Feature50DataSource = {
           },
         },
         content: {
-          className: 'content7-content',
+          className: "content7-content",
           text: {
-            className: 'content7-text',
+            className: "content7-text",
             md: 14,
             xs: 24,
             children: (
@@ -122,18 +122,18 @@ export const Feature50DataSource = {
             ),
           },
           img: {
-            className: 'content7-img kevlxo7jhlg-editor_css',
+            className: "content7-img kevlxo7jhlg-editor_css",
             md: 10,
             xs: 24,
             children:
-              'https://deephire.s3.amazonaws.com/misc/mikey-vid-interview-landing.png',
+              "https://deephire.s3.amazonaws.com/misc/mikey-vid-interview-landing.png",
           },
         },
       },
       {
-        name: 'block2',
+        name: "block2",
         tag: {
-          className: 'content7-tag',
+          className: "content7-tag",
           text: {
             children: (
               <span>
@@ -142,14 +142,14 @@ export const Feature50DataSource = {
                 </span>
               </span>
             ),
-            className: 'content7-tag-name',
+            className: "content7-tag-name",
           },
-          icon: { children: 'laptop' },
+          icon: { children: "laptop" },
         },
         content: {
-          className: 'content7-content',
+          className: "content7-content",
           text: {
-            className: 'content7-text',
+            className: "content7-text",
             md: 14,
             xs: 24,
             children: (
@@ -190,26 +190,26 @@ export const Feature50DataSource = {
             ),
           },
           img: {
-            className: 'content7-img',
+            className: "content7-img",
             md: 10,
             xs: 24,
             children:
-              'https://deephire.s3.amazonaws.com/websiteAssets/client-portal.gif',
+              "https://deephire.s3.amazonaws.com/websiteAssets/client-portal.gif",
           },
         },
       },
     ],
   },
-};
+}
 export const Content00DataSource = {
-  wrapper: { className: 'home-page-wrapper content0-wrapper' },
-  page: { className: 'home-page content0' },
-  OverPack: { playScale: 0.3, className: '' },
+  wrapper: { className: "home-page-wrapper content0-wrapper" },
+  page: { className: "home-page content0" },
+  OverPack: { playScale: 0.3, className: "" },
   titleWrapper: {
-    className: 'title-wrapper',
+    className: "title-wrapper",
     children: [
       {
-        name: 'title',
+        name: "title",
         children: (
           <span>
             <span>
@@ -221,25 +221,25 @@ export const Content00DataSource = {
     ],
   },
   childWrapper: {
-    className: 'content0-block-wrapper',
+    className: "content0-block-wrapper",
     children: [
       {
-        name: 'block0',
-        className: 'content0-block',
+        name: "block0",
+        className: "content0-block",
         md: 8,
         xs: 24,
         children: {
-          className: 'content0-block-item',
+          className: "content0-block-item",
           children: [
             {
-              name: 'image',
-              className: 'content0-block-icon',
+              name: "image",
+              className: "content0-block-icon",
               children:
-                'https://zos.alipayobjects.com/rmsportal/WBnVOjtIlGWbzyQivuyq.png',
+                "https://zos.alipayobjects.com/rmsportal/WBnVOjtIlGWbzyQivuyq.png",
             },
             {
-              name: 'title',
-              className: 'content0-block-title',
+              name: "title",
+              className: "content0-block-title",
               children: (
                 <span>
                   <p>One Click Interviews</p>
@@ -247,7 +247,7 @@ export const Content00DataSource = {
               ),
             },
             {
-              name: 'content',
+              name: "content",
               children: (
                 <span>
                   <span>
@@ -265,22 +265,22 @@ export const Content00DataSource = {
         },
       },
       {
-        name: 'block1',
-        className: 'content0-block',
+        name: "block1",
+        className: "content0-block",
         md: 8,
         xs: 24,
         children: {
-          className: 'content0-block-item',
+          className: "content0-block-item",
           children: [
             {
-              name: 'image',
-              className: 'content0-block-icon',
+              name: "image",
+              className: "content0-block-icon",
               children:
-                'https://zos.alipayobjects.com/rmsportal/YPMsLQuCEXtuEkmXTTdk.png',
+                "https://zos.alipayobjects.com/rmsportal/YPMsLQuCEXtuEkmXTTdk.png",
             },
             {
-              name: 'title',
-              className: 'content0-block-title',
+              name: "title",
+              className: "content0-block-title",
               children: (
                 <span>
                   <p>Auto Follow Ups</p>
@@ -288,7 +288,7 @@ export const Content00DataSource = {
               ),
             },
             {
-              name: 'content',
+              name: "content",
               children: (
                 <span>
                   <p>
@@ -302,22 +302,22 @@ export const Content00DataSource = {
         },
       },
       {
-        name: 'block2',
-        className: 'content0-block',
+        name: "block2",
+        className: "content0-block",
         md: 8,
         xs: 24,
         children: {
-          className: 'content0-block-item',
+          className: "content0-block-item",
           children: [
             {
-              name: 'image',
-              className: 'content0-block-icon',
+              name: "image",
+              className: "content0-block-icon",
               children:
-                'https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png',
+                "https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png",
             },
             {
-              name: 'title',
-              className: 'content0-block-title',
+              name: "title",
+              className: "content0-block-title",
               children: (
                 <span>
                   <p>24/7 Tech Support</p>
@@ -325,7 +325,7 @@ export const Content00DataSource = {
               ),
             },
             {
-              name: 'content',
+              name: "content",
               children: (
                 <span>
                   <p>
@@ -340,18 +340,18 @@ export const Content00DataSource = {
       },
     ],
   },
-};
+}
 export const Content10DataSource = {
-  wrapper: { className: 'home-page-wrapper content1-wrapper' },
-  OverPack: { className: 'home-page content1', playScale: 0.3 },
-  imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
+  wrapper: { className: "home-page-wrapper content1-wrapper" },
+  OverPack: { className: "home-page content1", playScale: 0.3 },
+  imgWrapper: { className: "content1-img", md: 10, xs: 24 },
   img: {
     children:
-      'https://deephire.s3.amazonaws.com/websiteAssets/undraw_in_sync_xwsa.svg',
+      "https://deephire.s3.amazonaws.com/websiteAssets/undraw_in_sync_xwsa.svg",
   },
-  textWrapper: { className: 'content1-text', md: 14, xs: 24 },
+  textWrapper: { className: "content1-text", md: 14, xs: 24 },
   title: {
-    className: 'content1-title',
+    className: "content1-title",
     children: (
       <span>
         <p>Integrate into your ATS.&nbsp;</p>
@@ -359,7 +359,7 @@ export const Content10DataSource = {
     ),
   },
   content: {
-    className: 'content1-content',
+    className: "content1-content",
     children: (
       <span>
         <p>
@@ -370,18 +370,18 @@ export const Content10DataSource = {
       </span>
     ),
   },
-};
+}
 export const Feature20DataSource = {
-  wrapper: { className: 'home-page-wrapper content2-wrapper' },
-  OverPack: { className: 'home-page content2', playScale: 0.3 },
-  imgWrapper: { className: 'content2-img', md: 10, xs: 24 },
+  wrapper: { className: "home-page-wrapper content2-wrapper" },
+  OverPack: { className: "home-page content2", playScale: 0.3 },
+  imgWrapper: { className: "content2-img", md: 10, xs: 24 },
   img: {
     children:
-      'https://deephire.s3.amazonaws.com/websiteAssets/undraw_powerful_26ry.svg',
+      "https://deephire.s3.amazonaws.com/websiteAssets/undraw_powerful_26ry.svg",
   },
-  textWrapper: { className: 'content2-text', md: 14, xs: 24 },
+  textWrapper: { className: "content2-text", md: 14, xs: 24 },
   title: {
-    className: 'content2-title',
+    className: "content2-title",
     children: (
       <span>
         <span>
@@ -393,7 +393,7 @@ export const Feature20DataSource = {
     ),
   },
   content: {
-    className: 'content2-content',
+    className: "content2-content",
     children: (
       <span>
         <span>
@@ -409,32 +409,32 @@ export const Feature20DataSource = {
       </span>
     ),
   },
-};
+}
 export const Content110DataSource = {
   OverPack: {
-    className: 'home-page-wrapper content11-wrapper',
+    className: "home-page-wrapper content11-wrapper",
     playScale: 0.3,
   },
   titleWrapper: {
-    className: 'title-wrapper',
+    className: "title-wrapper",
     children: [
       {
-        name: 'image',
+        name: "image",
         children:
-          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
-        className: 'title-image',
+          "https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg",
+        className: "title-image",
       },
       {
-        name: 'title',
+        name: "title",
         children: (
           <span>
             <p>Ready to Become More Effective?&nbsp;</p>
           </span>
         ),
-        className: 'title-h1',
+        className: "title-h1",
       },
       {
-        name: 'content',
+        name: "content",
         children: (
           <span>
             <p>
@@ -443,22 +443,22 @@ export const Content110DataSource = {
             </p>
           </span>
         ),
-        className: 'title-content',
+        className: "title-content",
       },
     ],
   },
   button: {
-    className: '',
+    className: "",
     children: {
       a: {
-        className: 'button',
-        href: '/demo',
+        className: "button",
+        href: "https://recruiter.deephire.com/user/login?signupEmail=%20",
         children: (
           <span>
-            <p>GET DEMO</p>
+            <p>Start Now</p>
           </span>
         ),
       },
     },
   },
-};
+}

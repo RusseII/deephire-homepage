@@ -1,23 +1,23 @@
-import React from 'react';
+import React from "react"
 export const Pricing10DataSource = {
-  wrapper: { className: 'home-page-wrapper pricing1-wrapper' },
-  page: { className: 'home-page pricing1' },
-  OverPack: { playScale: 0.3, className: 'pricing1-content-wrapper' },
+  wrapper: { className: "home-page-wrapper pricing1-wrapper" },
+  page: { className: "home-page pricing1" },
+  OverPack: { playScale: 0.3, className: "pricing1-content-wrapper" },
   titleWrapper: {
-    className: 'pricing1-title-wrapper',
+    className: "pricing1-title-wrapper",
     children: [
       {
-        name: 'title',
+        name: "title",
         children: (
           <span>
             <p>Live Interview Pricing</p>
           </span>
         ),
-        className: 'pricing1-title-h1',
+        className: "pricing1-title-h1",
       },
       {
-        name: 'content~kd331buu0gg',
-        className: '',
+        name: "content~kd331buu0gg",
+        className: "",
         children: (
           <span>
             <span>
@@ -29,18 +29,18 @@ export const Pricing10DataSource = {
     ],
   },
   block: {
-    className: 'pricing1-block-wrapper',
+    className: "pricing1-block-wrapper",
     children: [
       {
-        name: 'block0',
-        className: 'pricing1-block',
+        name: "block0",
+        className: "pricing1-block",
         md: 8,
         xs: 24,
         children: {
-          wrapper: { className: 'pricing1-block-box ' },
-          topWrapper: { className: 'pricing1-top-wrapper' },
+          wrapper: { className: "pricing1-block-box " },
+          topWrapper: { className: "pricing1-top-wrapper" },
           name: {
-            className: 'pricing1-name',
+            className: "pricing1-name",
             children: (
               <span>
                 <span>
@@ -52,37 +52,37 @@ export const Pricing10DataSource = {
             ),
           },
           money: {
-            className: 'pricing1-money',
+            className: "pricing1-money",
             children: (
               <span>
                 <span>
                   <span>
-                    <p>19/mo</p>
+                    <p>49/mo</p>
                   </span>
                 </span>
               </span>
             ),
           },
           content: {
-            className: 'pricing1-content',
+            className: "pricing1-content",
             children: (
               <span>
-                <p>One Click Interview</p>
+                <p>One Way Interviews </p>
                 <p>Custom Branding</p>
-                <p>Add Documents to Interviews</p>
-                <p> Interview Scheduling</p>
-                <p>Send Outs</p>
+                <p>2 Jobs</p>
+                <p>10 User Seats</p>
+                <p>500 Candidates</p>
               </span>
             ),
           },
-          line: { className: 'pricing1-line' },
+          line: { className: "pricing1-line" },
           buttonWrapper: {
-            className: 'pricing1-button-wrapper',
+            className: "pricing1-button-wrapper",
             children: {
               a: {
-                className: 'pricing1-button',
+                className: "pricing1-button",
                 href:
-                  'https://recruiter.deephire.com/user/login?signupEmail=%20',
+                  "https://recruiter.deephire.com/user/login?signupEmail=%20",
                 children: (
                   <span>
                     <p>Start Free Now</p>
@@ -94,15 +94,15 @@ export const Pricing10DataSource = {
         },
       },
       {
-        name: 'block1',
-        className: 'pricing1-block',
+        name: "block1",
+        className: "pricing1-block",
         md: 8,
         xs: 24,
         children: {
-          wrapper: { className: 'pricing1-block-box active' },
-          topWrapper: { className: 'pricing1-top-wrapper' },
+          wrapper: { className: "pricing1-block-box active" },
+          topWrapper: { className: "pricing1-top-wrapper" },
           name: {
-            className: 'pricing1-name',
+            className: "pricing1-name",
             children: (
               <span>
                 <span>
@@ -112,15 +112,15 @@ export const Pricing10DataSource = {
             ),
           },
           money: {
-            className: 'pricing1-money',
+            className: "pricing1-money",
             children: (
               <span>
-                <p>49/mo</p>
+                <p>149/mo</p>
               </span>
             ),
           },
           content: {
-            className: 'pricing1-content',
+            className: "pricing1-content",
             children: (
               <span>
                 <p>
@@ -128,21 +128,22 @@ export const Pricing10DataSource = {
                     <b>Everything in Basic Plus</b>
                   </b>
                 </p>
-                <p>Record Interviews</p>
-                <p>Share Interviews</p>
-                <p>Add Bookmarks</p>
-                <p>Get Client Feedback</p>
+                <p>Enhanced Analytics</p>
+
+                <p>10 Jobs</p>
+                <p>20 User Seats</p>
+                <p>5000 Candidates</p>
               </span>
             ),
           },
-          line: { className: 'pricing1-line' },
+          line: { className: "pricing1-line" },
           buttonWrapper: {
-            className: 'pricing1-button-wrapper',
+            className: "pricing1-button-wrapper",
             children: {
               a: {
-                className: 'pricing1-button',
+                className: "pricing1-button",
                 href:
-                  'https://recruiter.deephire.com/user/login?signupEmail=%20',
+                  "https://recruiter.deephire.com/user/login?signupEmail=%20",
                 children: (
                   <span>
                     <p>Start Free Now</p>
@@ -154,15 +155,15 @@ export const Pricing10DataSource = {
         },
       },
       {
-        name: 'block2',
-        className: 'pricing1-block',
+        name: "block2",
+        className: "pricing1-block",
         md: 8,
         xs: 24,
         children: {
-          wrapper: { className: 'pricing1-block-box ' },
-          topWrapper: { className: 'pricing1-top-wrapper' },
+          wrapper: { className: "pricing1-block-box " },
+          topWrapper: { className: "pricing1-top-wrapper" },
           name: {
-            className: 'pricing1-name',
+            className: "pricing1-name",
             children: (
               <span>
                 <p>Custom</p>
@@ -170,7 +171,7 @@ export const Pricing10DataSource = {
             ),
           },
           money: {
-            className: 'pricing1-money',
+            className: "pricing1-money",
             children: (
               <span>
                 <p>Contact Us</p>
@@ -178,7 +179,7 @@ export const Pricing10DataSource = {
             ),
           },
           content: {
-            className: 'pricing1-content',
+            className: "pricing1-content",
             children: (
               <span>
                 <p>
@@ -193,13 +194,13 @@ export const Pricing10DataSource = {
               </span>
             ),
           },
-          line: { className: 'pricing1-line' },
+          line: { className: "pricing1-line" },
           buttonWrapper: {
-            className: 'pricing1-button-wrapper',
+            className: "pricing1-button-wrapper",
             children: {
               a: {
-                className: 'pricing1-button',
-                href: '#',
+                className: "pricing1-button",
+                href: "#",
                 children: (
                   <span>
                     <p>Contact Us</p>
@@ -212,17 +213,17 @@ export const Pricing10DataSource = {
       },
     ],
   },
-};
+}
 export const Feature70DataSource = {
-  wrapper: { className: 'home-page-wrapper feature7-wrapper' },
-  page: { className: 'home-page feature7 kd336aewp9d-editor_css' },
+  wrapper: { className: "home-page-wrapper feature7-wrapper" },
+  page: { className: "home-page feature7 kd336aewp9d-editor_css" },
   OverPack: { playScale: 0.3 },
   titleWrapper: {
-    className: 'feature7-title-wrapper',
+    className: "feature7-title-wrapper",
     children: [
       {
-        name: 'title',
-        className: 'feature7-title-h1',
+        name: "title",
+        className: "feature7-title-h1",
         children: (
           <span>
             <span>
@@ -236,26 +237,26 @@ export const Feature70DataSource = {
     ],
   },
   blockWrapper: {
-    className: 'feature7-block-wrapper',
+    className: "feature7-block-wrapper",
     gutter: 24,
     children: [
       {
         md: 24,
         xs: 24,
-        name: 'block~kd33gd50uvj',
-        className: 'feature7-block',
+        name: "block~kd33gd50uvj",
+        className: "feature7-block",
         children: {
-          className: 'feature7-block-group',
+          className: "feature7-block-group",
           children: [
             {
-              name: 'image',
-              className: 'feature7-block-image',
+              name: "image",
+              className: "feature7-block-image",
               children:
-                'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/question-circle.svg',
+                "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/question-circle.svg",
             },
             {
-              name: 'title',
-              className: 'feature7-block-title',
+              name: "title",
+              className: "feature7-block-title",
               children: (
                 <span>
                   <span>
@@ -272,8 +273,8 @@ export const Feature70DataSource = {
               ),
             },
             {
-              name: 'content',
-              className: 'feature7-block-content',
+              name: "content",
+              className: "feature7-block-content",
               children: (
                 <span>
                   <span>
@@ -292,20 +293,20 @@ export const Feature70DataSource = {
       {
         md: 24,
         xs: 24,
-        name: 'block1',
-        className: 'feature7-block',
+        name: "block1",
+        className: "feature7-block",
         children: {
-          className: 'feature7-block-group',
+          className: "feature7-block-group",
           children: [
             {
-              name: 'image',
-              className: 'feature7-block-image',
+              name: "image",
+              className: "feature7-block-image",
               children:
-                'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/question-circle.svg',
+                "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/question-circle.svg",
             },
             {
-              name: 'title',
-              className: 'feature7-block-title',
+              name: "title",
+              className: "feature7-block-title",
               children: (
                 <span>
                   <span>
@@ -315,8 +316,8 @@ export const Feature70DataSource = {
               ),
             },
             {
-              name: 'content',
-              className: 'feature7-block-content',
+              name: "content",
+              className: "feature7-block-content",
               children: (
                 <span>
                   <span>
@@ -342,20 +343,20 @@ export const Feature70DataSource = {
       {
         md: 24,
         xs: 24,
-        name: 'block~kd33gix0ws',
-        className: 'feature7-block',
+        name: "block~kd33gix0ws",
+        className: "feature7-block",
         children: {
-          className: 'feature7-block-group',
+          className: "feature7-block-group",
           children: [
             {
-              name: 'image',
-              className: 'feature7-block-image',
+              name: "image",
+              className: "feature7-block-image",
               children:
-                'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/question-circle.svg',
+                "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/question-circle.svg",
             },
             {
-              name: 'title',
-              className: 'feature7-block-title',
+              name: "title",
+              className: "feature7-block-title",
               children: (
                 <span>
                   <span>
@@ -371,8 +372,8 @@ export const Feature70DataSource = {
               ),
             },
             {
-              name: 'content',
-              className: 'feature7-block-content',
+              name: "content",
+              className: "feature7-block-content",
               children: (
                 <span>
                   <span>
@@ -383,14 +384,15 @@ export const Feature70DataSource = {
                             <span>
                               <span>
                                 <p>
-                                  Yes! You can start a trial{' '}
+                                  Yes! You can start a trial{" "}
                                   <a href="https://recruiter.deephire.com/user/login?signupEmail=%20">
                                     here
-                                  </a>. We are so confident that you will love
-                                  the product, that if you are a recruiter &amp;
-                                  you don't - we will send you an amazon gift
-                                  card. Email us at support@deephire.com to ask
-                                  more about this.&nbsp;
+                                  </a>
+                                  . We are so confident that you will love the
+                                  product, that if you are a recruiter &amp; you
+                                  don't - we will send you an amazon gift card.
+                                  Email us at support@deephire.com to ask more
+                                  about this.&nbsp;
                                 </p>
                               </span>
                             </span>
@@ -408,20 +410,20 @@ export const Feature70DataSource = {
       {
         md: 24,
         xs: 24,
-        name: 'block~kd33gkgtvon',
-        className: 'feature7-block',
+        name: "block~kd33gkgtvon",
+        className: "feature7-block",
         children: {
-          className: 'feature7-block-group',
+          className: "feature7-block-group",
           children: [
             {
-              name: 'image',
-              className: 'feature7-block-image',
+              name: "image",
+              className: "feature7-block-image",
               children:
-                'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/question-circle.svg',
+                "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/question-circle.svg",
             },
             {
-              name: 'title',
-              className: 'feature7-block-title',
+              name: "title",
+              className: "feature7-block-title",
               children: (
                 <span>
                   <span>
@@ -435,8 +437,8 @@ export const Feature70DataSource = {
               ),
             },
             {
-              name: 'content',
-              className: 'feature7-block-content kd34dp9t6sa-editor_css',
+              name: "content",
+              className: "feature7-block-content kd34dp9t6sa-editor_css",
               children: (
                 <span>
                   <span>
@@ -459,19 +461,19 @@ export const Feature70DataSource = {
       },
     ],
   },
-};
+}
 export const Content110DataSource = {
   OverPack: {
-    className: 'home-page-wrapper content11-wrapper kd33x9lion7-editor_css',
+    className: "home-page-wrapper content11-wrapper kd33x9lion7-editor_css",
     playScale: 0.3,
     appear: false,
     always: false,
   },
   titleWrapper: {
-    className: 'title-wrapper kd34e2jvqy-editor_css',
+    className: "title-wrapper kd34e2jvqy-editor_css",
     children: [
       {
-        name: 'content2',
+        name: "content2",
         children: (
           <span>
             <p>
@@ -479,16 +481,16 @@ export const Content110DataSource = {
             </p>
           </span>
         ),
-        className: 'title-content kd33zctfmr-editor_css',
+        className: "title-content kd33zctfmr-editor_css",
       },
     ],
   },
   button: {
-    className: 'kd33xd1w89f-editor_css',
+    className: "kd33xd1w89f-editor_css",
     children: {
       a: {
-        className: 'button kd33xf6615g-editor_css',
-        href: 'https://recruiter.deephire.com/user/login?signupEmail=%20',
+        className: "button kd33xf6615g-editor_css",
+        href: "https://recruiter.deephire.com/user/login?signupEmail=%20",
         children: (
           <span>
             <span>
@@ -503,4 +505,4 @@ export const Content110DataSource = {
       },
     },
   },
-};
+}
