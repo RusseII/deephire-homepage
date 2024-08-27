@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react"
 export const Banner50DataSource = {
-  wrapper: { className: 'home-page-wrapper banner5' },
-  page: { className: 'home-page banner5-page' },
+  wrapper: { className: "home-page-wrapper banner5" },
+  page: { className: "home-page banner5-page" },
   childWrapper: {
-    className: 'banner5-title-wrapper kf5iz922pv-editor_css',
+    className: "banner5-title-wrapper kf5iz922pv-editor_css",
     children: [
       {
-        name: 'title',
+        name: "title",
         children: (
           <span>
             <span>
@@ -14,11 +14,11 @@ export const Banner50DataSource = {
             </span>
           </span>
         ),
-        className: 'banner5-title',
+        className: "banner5-title",
       },
       {
-        name: 'content',
-        className: 'banner5-content',
+        name: "content",
+        className: "banner5-content",
         children: (
           <span>
             <p>
@@ -31,19 +31,19 @@ export const Banner50DataSource = {
     ],
   },
   image: {
-    className: 'banner5-image',
-    children: 'https://deephire.s3.amazonaws.com/websiteAssets/formDemo.png',
+    className: "banner5-image",
+    children: "https://deephire.s3.amazonaws.com/websiteAssets/formDemo.png",
   },
-};
+}
 export const Feature00DataSource = {
-  wrapper: { className: 'home-page-wrapper content0-wrapper' },
-  page: { className: 'home-page content0' },
-  OverPack: { playScale: 0.3, className: '' },
+  wrapper: { className: "home-page-wrapper content0-wrapper" },
+  page: { className: "home-page content0" },
+  OverPack: { playScale: 0.3, className: "" },
   titleWrapper: {
-    className: 'title-wrapper',
+    className: "title-wrapper",
     children: [
       {
-        name: 'title',
+        name: "title",
         children: (
           <span>
             <span>
@@ -56,8 +56,8 @@ export const Feature00DataSource = {
         ),
       },
       {
-        name: 'content~kf5em3g0blo',
-        className: '',
+        name: "content~kf5em3g0blo",
+        className: "",
         children: (
           <span>
             <p>
@@ -71,25 +71,25 @@ export const Feature00DataSource = {
     ],
   },
   childWrapper: {
-    className: 'content0-block-wrapper',
+    className: "content0-block-wrapper",
     children: [
       {
-        name: 'block0',
-        className: 'content0-block',
+        name: "block0",
+        className: "content0-block",
         md: 8,
         xs: 24,
         children: {
-          className: 'content0-block-item',
+          className: "content0-block-item",
           children: [
             {
-              name: 'image',
-              className: 'content0-block-icon',
+              name: "image",
+              className: "content0-block-icon",
               children:
-                'https://zos.alipayobjects.com/rmsportal/WBnVOjtIlGWbzyQivuyq.png',
+                "https://zos.alipayobjects.com/rmsportal/WBnVOjtIlGWbzyQivuyq.png",
             },
             {
-              name: 'title',
-              className: 'content0-block-title',
+              name: "title",
+              className: "content0-block-title",
               children: (
                 <span>
                   <p>Drive more placements</p>
@@ -97,7 +97,7 @@ export const Feature00DataSource = {
               ),
             },
             {
-              name: 'content',
+              name: "content",
               children: (
                 <span>
                   <p>
@@ -111,22 +111,22 @@ export const Feature00DataSource = {
         },
       },
       {
-        name: 'block1',
-        className: 'content0-block',
+        name: "block1",
+        className: "content0-block",
         md: 8,
         xs: 24,
         children: {
-          className: 'content0-block-item',
+          className: "content0-block-item",
           children: [
             {
-              name: 'image',
-              className: 'content0-block-icon',
+              name: "image",
+              className: "content0-block-icon",
               children:
-                'https://zos.alipayobjects.com/rmsportal/YPMsLQuCEXtuEkmXTTdk.png',
+                "https://zos.alipayobjects.com/rmsportal/YPMsLQuCEXtuEkmXTTdk.png",
             },
             {
-              name: 'title',
-              className: 'content0-block-title',
+              name: "title",
+              className: "content0-block-title",
               children: (
                 <span>
                   <p>Make recruiters wildly productive.</p>
@@ -134,7 +134,7 @@ export const Feature00DataSource = {
               ),
             },
             {
-              name: 'content',
+              name: "content",
               children: (
                 <span>
                   <p>
@@ -148,22 +148,22 @@ export const Feature00DataSource = {
         },
       },
       {
-        name: 'block2',
-        className: 'content0-block',
+        name: "block2",
+        className: "content0-block",
         md: 8,
         xs: 24,
         children: {
-          className: 'content0-block-item',
+          className: "content0-block-item",
           children: [
             {
-              name: 'image',
-              className: 'content0-block-icon',
+              name: "image",
+              className: "content0-block-icon",
               children:
-                'https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png',
+                "https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png",
             },
             {
-              name: 'title',
-              className: 'content0-block-title',
+              name: "title",
+              className: "content0-block-title",
               children: (
                 <span>
                   <p>Manage your candidate pipeline with predictability</p>
@@ -171,7 +171,7 @@ export const Feature00DataSource = {
               ),
             },
             {
-              name: 'content',
+              name: "content",
               children: (
                 <span>
                   <span>
@@ -190,18 +190,18 @@ export const Feature00DataSource = {
       },
     ],
   },
-};
+}
 export const Teams20DataSource = {
   wrapper: {
-    className: 'home-page-wrapper teams2-wrapper kf5juqefecp-editor_css',
+    className: "home-page-wrapper teams2-wrapper kf5juqefecp-editor_css",
   },
-  page: { className: 'home-page teams2' },
-  OverPack: { playScale: 0.3, className: '' },
+  page: { className: "home-page teams2" },
+  OverPack: { playScale: 0.3, className: "" },
   titleWrapper: {
-    className: 'title-wrapper',
+    className: "title-wrapper",
     children: [
       {
-        name: 'title',
+        name: "title",
         children: (
           <span>
             <p>Recruiting Teams Love DeepHire</p>
@@ -211,26 +211,26 @@ export const Teams20DataSource = {
     ],
   },
   block: {
-    className: 'block-wrapper kf5evgs3jor-editor_css',
+    className: "block-wrapper kf5evgs3jor-editor_css",
     gutter: 72,
     children: [
       {
-        name: 'block0',
-        className: 'block',
+        name: "block0",
+        className: "block",
         md: 8,
         xs: 24,
         image: {
-          name: 'image',
-          className: 'teams2-image',
+          name: "image",
+          className: "teams2-image",
           children:
-            'https://deephire.s3.amazonaws.com/websiteAssets/testimonal1.png',
+            "https://deephire.s3.amazonaws.com/websiteAssets/testimonal1.png",
         },
         titleWrapper: {
-          className: 'teams2-textWrapper',
+          className: "teams2-textWrapper",
           children: [
             {
-              name: 'title',
-              className: 'teams2-title',
+              name: "title",
+              className: "teams2-title",
               children: (
                 <span>
                   <span>
@@ -248,8 +248,8 @@ export const Teams20DataSource = {
               ),
             },
             {
-              name: 'content',
-              className: 'teams2-job',
+              name: "content",
+              className: "teams2-job",
               children: (
                 <span>
                   <span>
@@ -261,8 +261,8 @@ export const Teams20DataSource = {
               ),
             },
             {
-              name: 'content1',
-              className: 'teams2-content kf5g3tuey5k-editor_css',
+              name: "content1",
+              className: "teams2-content kf5g3tuey5k-editor_css",
               children: (
                 <span>
                   <span>
@@ -283,22 +283,22 @@ export const Teams20DataSource = {
         },
       },
       {
-        name: 'block1',
-        className: 'block',
+        name: "block1",
+        className: "block",
         md: 8,
         xs: 24,
         image: {
-          name: 'image',
-          className: 'teams2-image',
+          name: "image",
+          className: "teams2-image",
           children:
-            'https://deephire.s3.amazonaws.com/websiteAssets/testimonal2.png',
+            "https://deephire.s3.amazonaws.com/websiteAssets/testimonal2.png",
         },
         titleWrapper: {
-          className: 'teams2-textWrapper',
+          className: "teams2-textWrapper",
           children: [
             {
-              name: 'title',
-              className: 'teams2-title',
+              name: "title",
+              className: "teams2-title",
               children: (
                 <span>
                   <span>
@@ -310,8 +310,8 @@ export const Teams20DataSource = {
               ),
             },
             {
-              name: 'content',
-              className: 'teams2-job',
+              name: "content",
+              className: "teams2-job",
               children: (
                 <span>
                   <span>
@@ -323,15 +323,15 @@ export const Teams20DataSource = {
               ),
             },
             {
-              name: 'content1',
-              className: 'teams2-content kf5g4td089r-editor_css',
+              name: "content1",
+              className: "teams2-content kf5g4td089r-editor_css",
               children: (
                 <span>
                   <span>
                     <p>
                       DeepHire has simplified our process across our firm.
-                      Recruiters are able to use DeepHire for pre-screening,
-                      live interviews, and candidate presentation.&nbsp;
+                      Recruiters are able to use DeepHire for pre-screening and
+                      candidate presentation.&nbsp;
                     </p>
                   </span>
                 </span>
@@ -341,22 +341,22 @@ export const Teams20DataSource = {
         },
       },
       {
-        name: 'block2',
-        className: 'block',
+        name: "block2",
+        className: "block",
         md: 8,
         xs: 24,
         image: {
-          name: 'image',
-          className: 'teams2-image',
+          name: "image",
+          className: "teams2-image",
           children:
-            'https://deephire.s3.amazonaws.com/websiteAssets/testimonial3.png',
+            "https://deephire.s3.amazonaws.com/websiteAssets/testimonial3.png",
         },
         titleWrapper: {
-          className: 'teams2-textWrapper',
+          className: "teams2-textWrapper",
           children: [
             {
-              name: 'title',
-              className: 'teams2-title',
+              name: "title",
+              className: "teams2-title",
               children: (
                 <span>
                   <span>
@@ -368,8 +368,8 @@ export const Teams20DataSource = {
               ),
             },
             {
-              name: 'content',
-              className: 'teams2-job',
+              name: "content",
+              className: "teams2-job",
               children: (
                 <span>
                   <p>Director of Recruiting, Virtual Hire</p>
@@ -377,8 +377,8 @@ export const Teams20DataSource = {
               ),
             },
             {
-              name: 'content1',
-              className: 'teams2-content kf5g6pngof-editor_css',
+              name: "content1",
+              className: "teams2-content kf5g6pngof-editor_css",
               children: (
                 <span>
                   <p>
@@ -394,23 +394,23 @@ export const Teams20DataSource = {
       },
     ],
   },
-};
+}
 export const Content110DataSource = {
   OverPack: {
-    className: 'home-page-wrapper content11-wrapper kf5gp68241-editor_css',
+    className: "home-page-wrapper content11-wrapper kf5gp68241-editor_css",
     playScale: 0.3,
   },
   titleWrapper: {
-    className: 'title-wrapper',
+    className: "title-wrapper",
     children: [
       {
-        name: 'image',
+        name: "image",
         children:
-          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
-        className: 'title-image kf5gpem6rhe-editor_css',
+          "https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg",
+        className: "title-image kf5gpem6rhe-editor_css",
       },
       {
-        name: 'title',
+        name: "title",
         children: (
           <span>
             <span>
@@ -420,10 +420,10 @@ export const Content110DataSource = {
             </span>
           </span>
         ),
-        className: 'title-h1',
+        className: "title-h1",
       },
       {
-        name: 'content',
+        name: "content",
         children: (
           <span>
             <span>
@@ -434,10 +434,10 @@ export const Content110DataSource = {
             </span>
           </span>
         ),
-        className: 'title-content',
+        className: "title-content",
       },
       {
-        name: 'content2',
+        name: "content2",
         children: (
           <span>
             <p>
@@ -445,16 +445,16 @@ export const Content110DataSource = {
             </p>
           </span>
         ),
-        className: 'title-content kf5gprx77vi-editor_css',
+        className: "title-content kf5gprx77vi-editor_css",
       },
     ],
   },
   button: {
-    className: '',
+    className: "",
     children: {
       a: {
-        className: 'button',
-        href: '#',
+        className: "button",
+        href: "#",
         children: (
           <span>
             <span>
@@ -465,4 +465,4 @@ export const Content110DataSource = {
       },
     },
   },
-};
+}

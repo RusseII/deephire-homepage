@@ -1,22 +1,22 @@
-import React from 'react';
+import React from "react"
 export const Banner50DataSource = {
-  wrapper: { className: 'home-page-wrapper banner5' },
-  page: { className: 'home-page banner5-page' },
+  wrapper: { className: "home-page-wrapper banner5" },
+  page: { className: "home-page banner5-page" },
   childWrapper: {
-    className: 'banner5-title-wrapper',
+    className: "banner5-title-wrapper",
     children: [
       {
-        name: 'title',
+        name: "title",
         children: (
           <span>
             <p>Live Video Interviewing</p>
           </span>
         ),
-        className: 'banner5-title',
+        className: "banner5-title",
       },
       {
-        name: 'explain',
-        className: 'banner5-explain',
+        name: "explain",
+        className: "banner5-explain",
         children: (
           <span>
             <span>
@@ -42,8 +42,8 @@ export const Banner50DataSource = {
         ),
       },
       {
-        name: 'content',
-        className: 'banner5-content',
+        name: "content",
+        className: "banner5-content",
         children: (
           <span>
             <span>
@@ -65,12 +65,12 @@ export const Banner50DataSource = {
         ),
       },
       {
-        name: 'button',
-        className: 'banner5-button-wrapper',
+        name: "button",
+        className: "banner5-button-wrapper",
         children: {
-          href: 'https://recruiter.deephire.com/user/login?signupEmail=%20',
-          className: 'banner5-button',
-          type: 'primary',
+          href: "https://recruiter.deephire.com/user/login?signupEmail=%20",
+          className: "banner5-button",
+          type: "primary",
           children: (
             <span>
               <span>
@@ -83,21 +83,21 @@ export const Banner50DataSource = {
     ],
   },
   image: {
-    className: 'banner5-image kcxgi7x5k3m-editor_css',
+    className: "banner5-image kcxgi7x5k3m-editor_css",
     children:
-      'https://deephire.s3.amazonaws.com/misc/mikey-vid-interview-landing.png',
+      "https://deephire.s3.amazonaws.com/misc/mikey-vid-interview-landing.png",
   },
-};
+}
 export const Feature70DataSource = {
-  wrapper: { className: 'home-page-wrapper feature7-wrapper' },
-  page: { className: 'home-page feature7' },
+  wrapper: { className: "home-page-wrapper feature7-wrapper" },
+  page: { className: "home-page feature7" },
   OverPack: { playScale: 0.3 },
   titleWrapper: {
-    className: 'feature7-title-wrapper',
+    className: "feature7-title-wrapper",
     children: [
       {
-        name: 'title',
-        className: 'feature7-title-h1',
+        name: "title",
+        className: "feature7-title-h1",
         children: (
           <span>
             <span>
@@ -111,26 +111,26 @@ export const Feature70DataSource = {
     ],
   },
   blockWrapper: {
-    className: 'feature7-block-wrapper',
+    className: "feature7-block-wrapper",
     gutter: 24,
     children: [
       {
         md: 24,
         xs: 24,
-        name: 'block0',
-        className: 'feature7-block',
+        name: "block0",
+        className: "feature7-block",
         children: {
-          className: 'feature7-block-group',
+          className: "feature7-block-group",
           children: [
             {
-              name: 'image',
-              className: 'feature7-block-image',
+              name: "image",
+              className: "feature7-block-image",
               children:
-                'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/check-circle.svg',
+                "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/check-circle.svg",
             },
             {
-              name: 'title',
-              className: 'feature7-block-title',
+              name: "title",
+              className: "feature7-block-title",
               children: (
                 <span>
                   <span>
@@ -140,8 +140,8 @@ export const Feature70DataSource = {
               ),
             },
             {
-              name: 'content',
-              className: 'feature7-block-content',
+              name: "content",
+              className: "feature7-block-content",
               children: (
                 <span>
                   <span>
@@ -154,7 +154,8 @@ export const Feature70DataSource = {
                             was directly built for recruiters, you will
                             experience a smooth process &amp; will not have to
                             fight with technology to get it to work the way you
-                            need it to.&nbsp;<br />
+                            need it to.&nbsp;
+                            <br />
                             <br />
                           </p>
                         </span>
@@ -170,20 +171,20 @@ export const Feature70DataSource = {
       {
         md: 24,
         xs: 24,
-        name: 'block~kcuo7i6etro',
-        className: 'feature7-block',
+        name: "block~kcuo7i6etro",
+        className: "feature7-block",
         children: {
-          className: 'feature7-block-group',
+          className: "feature7-block-group",
           children: [
             {
-              name: 'image',
-              className: 'feature7-block-image',
+              name: "image",
+              className: "feature7-block-image",
               children:
-                'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/check-circle.svg',
+                "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/check-circle.svg",
             },
             {
-              name: 'title',
-              className: 'feature7-block-title',
+              name: "title",
+              className: "feature7-block-title",
               children: (
                 <span>
                   <span>
@@ -197,8 +198,8 @@ export const Feature70DataSource = {
               ),
             },
             {
-              name: 'content',
-              className: 'feature7-block-content',
+              name: "content",
+              className: "feature7-block-content",
               children: (
                 <span>
                   <span>
@@ -206,7 +207,7 @@ export const Feature70DataSource = {
                       <span>
                         <span>
                           <p>
-                            Live interviews are automatically recored. Say
+                            Live interviews are automatically recorded. Say
                             goodbye to having to memorize everything about the
                             interview. You can share the recorded interviews
                             with your clients or your team.&nbsp;
@@ -224,20 +225,20 @@ export const Feature70DataSource = {
       {
         md: 24,
         xs: 24,
-        name: 'block~kcuobug318m',
-        className: 'feature7-block',
+        name: "block~kcuobug318m",
+        className: "feature7-block",
         children: {
-          className: 'feature7-block-group',
+          className: "feature7-block-group",
           children: [
             {
-              name: 'image',
-              className: 'feature7-block-image',
+              name: "image",
+              className: "feature7-block-image",
               children:
-                'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/check-circle.svg',
+                "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/check-circle.svg",
             },
             {
-              name: 'title',
-              className: 'feature7-block-title',
+              name: "title",
+              className: "feature7-block-title",
               children: (
                 <span>
                   <span>
@@ -253,8 +254,8 @@ export const Feature70DataSource = {
               ),
             },
             {
-              name: 'content',
-              className: 'feature7-block-content',
+              name: "content",
+              className: "feature7-block-content",
               children: (
                 <span>
                   <span>
@@ -277,20 +278,20 @@ export const Feature70DataSource = {
       {
         md: 24,
         xs: 24,
-        name: 'block~kcuo7jb7fsa',
-        className: 'feature7-block',
+        name: "block~kcuo7jb7fsa",
+        className: "feature7-block",
         children: {
-          className: 'feature7-block-group',
+          className: "feature7-block-group",
           children: [
             {
-              name: 'image',
-              className: 'feature7-block-image',
+              name: "image",
+              className: "feature7-block-image",
               children:
-                'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/check-circle.svg',
+                "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/check-circle.svg",
             },
             {
-              name: 'title',
-              className: 'feature7-block-title',
+              name: "title",
+              className: "feature7-block-title",
               children: (
                 <span>
                   <span>
@@ -302,8 +303,8 @@ export const Feature70DataSource = {
               ),
             },
             {
-              name: 'content',
-              className: 'feature7-block-content',
+              name: "content",
+              className: "feature7-block-content",
               children: (
                 <span>
                   <span>
@@ -330,20 +331,20 @@ export const Feature70DataSource = {
       {
         md: 24,
         xs: 24,
-        name: 'block~kcuobo7jcmo',
-        className: 'feature7-block',
+        name: "block~kcuobo7jcmo",
+        className: "feature7-block",
         children: {
-          className: 'feature7-block-group',
+          className: "feature7-block-group",
           children: [
             {
-              name: 'image',
-              className: 'feature7-block-image',
+              name: "image",
+              className: "feature7-block-image",
               children:
-                'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/check-circle.svg',
+                "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/check-circle.svg",
             },
             {
-              name: 'title',
-              className: 'feature7-block-title',
+              name: "title",
+              className: "feature7-block-title",
               children: (
                 <span>
                   <span>
@@ -360,8 +361,8 @@ export const Feature70DataSource = {
               ),
             },
             {
-              name: 'content',
-              className: 'feature7-block-content',
+              name: "content",
+              className: "feature7-block-content",
               children: (
                 <span>
                   <span>
@@ -383,20 +384,20 @@ export const Feature70DataSource = {
       {
         md: 24,
         xs: 24,
-        name: 'block~kd32oyiaeoe',
-        className: 'feature7-block',
+        name: "block~kd32oyiaeoe",
+        className: "feature7-block",
         children: {
-          className: 'feature7-block-group',
+          className: "feature7-block-group",
           children: [
             {
-              name: 'image',
-              className: 'feature7-block-image',
+              name: "image",
+              className: "feature7-block-image",
               children:
-                'https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/check-circle.svg',
+                "https://raw.githubusercontent.com/ant-design/ant-design-icons/master/packages/icons-svg/svg/twotone/check-circle.svg",
             },
             {
-              name: 'title',
-              className: 'feature7-block-title',
+              name: "title",
+              className: "feature7-block-title",
               children: (
                 <span>
                   <span>
@@ -416,8 +417,8 @@ export const Feature70DataSource = {
               ),
             },
             {
-              name: 'content',
-              className: 'feature7-block-content',
+              name: "content",
+              className: "feature7-block-content",
               children: (
                 <span>
                   <span>
@@ -434,17 +435,17 @@ export const Feature70DataSource = {
       },
     ],
   },
-};
+}
 export const Content110DataSource = {
   OverPack: {
-    className: 'home-page-wrapper content11-wrapper kd34vl3xcw6-editor_css',
+    className: "home-page-wrapper content11-wrapper kd34vl3xcw6-editor_css",
     playScale: 0.3,
   },
   titleWrapper: {
-    className: 'title-wrapper',
+    className: "title-wrapper",
     children: [
       {
-        name: 'title',
+        name: "title",
         children: (
           <span>
             <span>
@@ -460,16 +461,16 @@ export const Content110DataSource = {
             </span>
           </span>
         ),
-        className: 'title-h1',
+        className: "title-h1",
       },
     ],
   },
   button: {
-    className: '',
+    className: "",
     children: {
       a: {
-        className: 'button',
-        href: 'https://recruiter.deephire.com/user/login?signupEmail=%20',
+        className: "button",
+        href: "https://recruiter.deephire.com/user/login?signupEmail=%20",
         children: (
           <span>
             <span>
@@ -480,4 +481,4 @@ export const Content110DataSource = {
       },
     },
   },
-};
+}
